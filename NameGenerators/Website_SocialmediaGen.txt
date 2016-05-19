@@ -1,0 +1,14 @@
+-start(base)
+-base(base)
+HeadBook
+SocialPlanet
+DailySocial
+Instasnap
+Snappic
+LinkedOut
+MyFriends
+MyWorld
+FriendsDNA
+SocialDNA
+GamerPlanet
+iSocial

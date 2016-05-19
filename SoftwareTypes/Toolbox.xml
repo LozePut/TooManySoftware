@@ -1,0 +1,276 @@
+<SoftwareType>
+	<Name>Toolbox</Name>
+	<Description>Little but usefull software.</Description>
+		<Categories>
+		<Category Name="WebCam Software">
+			<Unlock>1990</Unlock>
+			<Description></Description>
+			<Popularity>0.6</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+
+		<Category Name="Screen recorder">
+			<Unlock>1995</Unlock>
+			<Description>Record your screen and publish videos</Description>
+			<Popularity>0.6</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+
+
+
+
+
+	<Random>0.1</Random>
+	<Popularity>0.5</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Category>Default</Category>
+	<NameGenerator>ToolBoxGen</NameGenerator>
+	<Features>
+	<Feature Forced="TRUE">
+			<Name>Webcam input</Name>
+			<Description>Software register webcam.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="WebCam Software">1990</SoftwareCategory>
+	</Feature>
+		<Feature Forced="TRUE">
+			<Name>Webcam output</Name>
+			<Description>Show input from the webcam on the screen.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="WebCam Software">1990</SoftwareCategory>
+	</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Special Effects</Name>
+			<Description>Adds specials effects</Description>
+			<DevTime>0.5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>2</CodeArt>
+			<Dependency Software="Toolbox">Webcam output</Dependency>
+			<SoftwareCategory Category="WebCam Software">1990</SoftwareCategory>
+	</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Support GreenScreen</Name>
+			<Description>Epic background</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Toolbox">Special Effects</Dependency>
+			<SoftwareCategory Category="WebCam Software">1990</SoftwareCategory>
+	</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Night Vision</Name>
+			<Description>Capture without light</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Toolbox">Webcam input</Dependency>
+			<SoftwareCategory Category="WebCam Software">1990</SoftwareCategory>
+	</Feature>
+
+	<Feature Forced="TRUE">
+			<Name>144p</Name>
+			<Description>Bad quality, But it works, I think.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+	<Feature Forced="FALSE">
+			<Name>240p</Name>
+			<Description>A little bit better, but not great</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Toolbox">144p</Dependency>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+	<Feature Forced="FALSE">
+			<Name>360p</Name>
+			<Description>Still bad...</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Toolbox">240p</Dependency>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+	<Feature Forced="FALSE">
+			<Name>480p</Name>
+			<Description>Not bad and not great</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Toolbox">360p</Dependency>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+	<Feature Forced="FALSE">
+			<Name>720p</Name>
+			<Description>HD</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Toolbox">480p</Dependency>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+	<Feature Forced="FALSE">
+			<Name>1080p</Name>
+			<Description>Full HD</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Toolbox">720p</Dependency>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+	<Feature Forced="FALSE">
+			<Name>4k</Name>
+			<Description>Ultra HD</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Research>2015</Research>
+			<Dependency Software="Toolbox">1080p</Dependency>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+
+	<Feature Forced="TRUE">
+			<Name>15 FPS</Name>
+			<Description>Slow, very slow</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+	<Feature Forced="TRUE">
+			<Name>Stereo sound</Name>
+			<Description>Sound from 2 sides</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+	<Feature Forced="FALSE">
+			<Name>Surround sound</Name>
+			<Description>You can hear from all sides.</Description>
+			<Research>2000</Research>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Toolbox">Stereo sound</Dependency>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+	<Feature Forced="TRUE">
+			<Name>30 FPS</Name>
+			<Description>A low framerate, but it can be done</Description>
+			<DevTime>0.5</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Toolbox">15 FPS</Dependency>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+	<Feature Forced="TRUE">
+			<Name>60 FPS</Name>
+			<Description>A good framerate</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Toolbox">30 FPS</Dependency>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+	<Feature Forced="TRUE">
+			<Name>Facecam</Name>
+			<Description>A good framerate</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+	<Feature Forced="TRUE">
+			<Name>120 FPS</Name>
+			<Description>A super good framerate</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2000</Unlock>
+			<Dependency Software="Toolbox">60 FPS</Dependency>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+	<Feature Forced="TRUE">
+			<Name>200 FPS</Name>
+			<Description>A super good framerate</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock>2005</Unlock>
+			<Dependency Software="Toolbox">120 FPS</Dependency>
+			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+	</Feature>
+
+
+	</Features>
+</SoftwareType>

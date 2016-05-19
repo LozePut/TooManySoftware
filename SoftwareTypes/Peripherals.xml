@@ -1,0 +1,33 @@
+<SoftwareType>
+	<Name>Peripherals</Name>
+	<Description>Hardware such as mices, keyboards, headsets</Description>
+		<Categories>
+		<Category Name="Audio">
+			<Description>Headsets and speakers etc</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	<NameGenerator>PeripheralsGen</NameGenerator>
+	<Random>0.1</Random>
+	<Popularity>1</Popularity>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Category>Test</Category>
+	<Features>
+			<Feature Forced="TRUE">
+				<Name>HTML Based</Name>
+				<Description>Horrible looking site</Description>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.2</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+		</Features>
+	</SoftwareType>

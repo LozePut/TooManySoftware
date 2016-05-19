@@ -1,0 +1,49 @@
+<Company>
+	<Name>Test Company</Name>
+	<Money>10000000</Money>
+	<Fans>50000</Fans>
+	<BusinessReputation>50</BusinessReputation>
+	<Founded>2-1975</Founded>
+	<Products>
+		<Product>
+			<Name>Test OS</Name>
+			<Release>1-1980</Release>
+			<Type>Operating System</Type>
+			<Category>Computer</Category>
+			<Features>
+				<Feature>GUI</Feature>
+				<Feature>QA</Feature>
+			</Features>
+			<Quality>0.5</Quality>
+			<OpenSource>TRUE</OpenSource>
+			<InHouse>FALSE</InHouse>
+			<Reception>1</Reception>
+			<Popularity>1</Popularity>
+			<SequelTo></SequelTo>
+			<OS>
+			</OS>
+			<Needs>
+			</Needs>
+		</Product>
+		<Product>
+			<Name>Test product</Name>
+			<Release>5-1985</Release>
+			<Type>Test Software</Type>
+			<Category>Test 1</Category>
+			<Features>
+				<Feature></Feature>
+			</Features>
+			<Quality>1</Quality>
+			<OpenSource>FALSE</OpenSource>
+			<InHouse>FALSE</InHouse>
+			<Reception>1</Reception>
+			<Popularity>1</Popularity>
+			<SequelTo></SequelTo>
+			<OS>
+				<Name>Test OS</Name>
+			</OS>
+			<Needs>
+			</Needs>
+		</Product>
+	</Products>
+</Company>

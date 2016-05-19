@@ -1,0 +1,146 @@
+<SoftwareType>
+	<Name>Server Hosting</Name>
+	<Description>Host servers.</Description>
+	<Unlock>1990</Unlock>
+		<Categories>
+		<Category Name="Default">
+			<Description></Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	<Random>0.1</Random>
+	<Popularity>1</Popularity>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Category>Test</Category>
+	<OSLimit>Computer</OSLimit><!-- This means this software only works on Computer operating systems -->
+	<NameGenerator>ServerHostingGen</NameGenerator>
+	<Features>
+				<Feature Forced="FALSE">
+			<Name>Online Shop</Name>
+			<Description>Make website for selling your servers</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>2</CodeArt>
+			<Server>0.0001</Server>
+		</Feature>
+				<Feature Forced="FALSE">
+			<Name>Online Support</Name>
+			<Description>Support users with problems</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>2</CodeArt>
+			<Server>0.0001</Server>
+			<Dependency Software="Server Hosting">Online Shop</Dependency>
+			<Dependency Software="Web Browser">Support HTML 5</Dependency>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>1 GB</Name>
+			<Description>Give all users +1 GB.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.00000000001</Server>
+		</Feature>
+				<Feature Forced="FALSE">
+			<Name>5 GB</Name>
+			<Description>Give all users +5 GB.</Description>
+			<Unlock>1995</Unlock>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.05</Server>
+		</Feature>
+				<Feature Forced="FALSE">
+			<Name>10 GB</Name>
+			<Description>Give all users +10 GB.</Description>
+			<Unlock>2000</Unlock>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.01</Server>
+		</Feature>
+		
+				<Feature Forced="FALSE">
+			<Name>1 TB</Name>
+			<Description>Give all users +1 TB. WARNING: YOU NEED A LARGE SERVER FARM!</Description>
+			<Unlock>2015</Unlock>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Unlock></Unlock>
+			</Feature>
+			
+			<Feature FROM="HDD">
+			<Name>SSD</Name>
+			<Description>Really fast</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<Unlock>2005</Unlock>
+			<CodeArt>2</CodeArt>
+			<Server>0.0001</Server>
+		</Feature>
+		
+			<Feature Forced="TRUE">
+			<Name>HDD</Name>
+			<Description>Slow, But high storage</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>2</CodeArt>
+		</Feature>
+			
+			<Feature FROM="SSD">
+			<Name>SSHD</Name>
+			<Description>Fast and high storage</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<Unlock>2010</Unlock>
+			<CodeArt>2</CodeArt>
+			</Feature>
+			
+			<Feature Forced="FALSE">
+			<Name>Ddos Protection</Name>
+			<Description>Defend customers from ddos attacks</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>1</Stability>
+			<Unlock>1990</Unlock>
+			<CodeArt>0.5</CodeArt>
+			</Feature>
+			
+			<Feature Forced="FALSE">
+			<Name>Quantum</Name>
+			<Description>A lot faster and smaller than SSD</Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<Unlock>2020</Unlock>
+			<Research>2020</Research>
+			<CodeArt>4</CodeArt>
+			</Feature>
+	</Features>
+</SoftwareType>

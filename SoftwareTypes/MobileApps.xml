@@ -1,0 +1,229 @@
+<SoftwareType>
+	<Name>Mobile Apps</Name>
+	<Description>Mobile app.</Description>
+		<Categories>
+		<Category Name="Business">
+			<Description>Make profit every where you are!</Description>
+				<NameGenerator>MobileApps_Business</NameGenerator>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.75</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Gaming">
+			<Description>All your games in your pocket!</Description>
+			<NameGenerator>MobileApps_Gaming</NameGenerator>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.75</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	<Unlock>2000</Unlock>
+	<Random>0.1</Random>
+	<Popularity>2</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Category>Business</Category>
+	<OSLimit>Phone</OSLimit><!-- This means this software only works on Computer operating systems -->
+	<Features>
+	
+	
+	
+		<Feature Forced="TRUE">
+			<Name>Java</Name>
+			<Description>You need java for making apps.</Description>
+			<DevTime>0.5</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0.5</Usability>
+			<Stability>0.5</Stability>
+			<CodeArt>0.25</CodeArt>
+		</Feature>
+		<Feature Forced="FALSE">
+			<Name>CSS</Name>
+			<Description>Make your app better.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Mobile Apps">Java</Dependency>
+		</Feature>
+		<Feature>
+			<Name>HD graphics</Name>
+			<Description>Make your game HD.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>3</CodeArt>
+			<SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Strategy</Name>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<Server>0.002</Server>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+		</Feature>
+		
+		<Feature From="Strategy">
+		<Name>MMO</Name>
+			<Description>Massive Multiplayer Online.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<Server>0.002</Server>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Server Hosting">1 GB</Dependency>
+			<SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+		</Feature>
+		
+								<Feature Forced="FALSE">
+			<Name>Agenda</Name>
+			<Description>Plan events</Description>
+			<DevTime>0.1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<Server>0.002</Server>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Mobile Apps">GUI</Dependency>
+			<SoftwareCategory Category="Business">2000</SoftwareCategory>
+		</Feature>
+		
+		
+		
+						<Feature Forced="FALSE">
+			<Name>GUI</Name>
+			<Description>Get a nice overview!</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>3</CodeArt>
+			<SoftwareCategory Category="Business">2000</SoftwareCategory>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+		</Feature>
+		
+		
+		
+		
+				<Feature Forced="FALSE">
+			<Name>Stocks</Name>
+			<Description>Buy stocks everywhere!</Description>
+			<DevTime>0.1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<Server>0.002</Server>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Business">2000</SoftwareCategory>
+		</Feature>
+		
+		
+						<Feature Forced="FALSE">
+			<Name>Rotate</Name>
+			<Description>Rotate your phone to interact</Description>
+			<DevTime>0.5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Research>2005</Research>
+			<Dependency Software="Mobile Apps">Java</Dependency>
+			<SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+		</Feature>
+		
+		<Feature From="MMO">
+		<Name>FPS</Name>
+			<Description>First Person Shooter.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<Server>0.001</Server>
+			<CodeArt>2.5</CodeArt>
+			<SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+		</Feature>
+		
+				<Feature Forced="FALSE">
+		<Name>Kill cam</Name>
+			<Description>Show players how they died.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1.5</CodeArt>
+			<Dependency Software="Mobile Apps">FPS</Dependency>
+			<SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+		</Feature>
+		
+						<Feature Forced="FALSE">
+		<Name>Competitief</Name>
+			<Description>Ranking system.</Description>
+			<DevTime>0.5</DevTime>
+			<Innovation>0.5</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+		</Feature>
+		
+						<Feature Forced="FALSE">
+		<Name>Esports</Name>
+			<Description>Big toernamants for the best players</Description>
+			<DevTime>0.5</DevTime>
+			<Innovation>2.5</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1.5</CodeArt>
+			<Dependency Software="Mobile Apps">Competitief</Dependency>
+			<SoftwareCategory Category="Gaming">2000</SoftwareCategory>
+		</Feature>
+		
+							<Feature Forced="FALSE">
+		<Name>Business Card Generator</Name>
+			<Description>Create custom for users</Description>
+			<DevTime>0.6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>3</CodeArt>
+			<Dependency Software="Mobile Apps">CSS</Dependency>
+			<SoftwareCategory Category="Business">2000</SoftwareCategory>
+		</Feature>
+		
+						<Feature Forced="FALSE">
+		<Name>Conference call</Name>
+			<Description>Meet all empolyers online</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>3</CodeArt>
+			<Dependency Software="Mobile Apps">CSS</Dependency>
+			<SoftwareCategory Category="Business">2000</SoftwareCategory>
+		</Feature>
+		
+						<Feature Forced="FALSE">
+		<Name>Statics</Name>
+			<Description>See your company growing</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>2.5</CodeArt>
+			<Dependency Software="Mobile Apps">Agenda</Dependency>
+			<SoftwareCategory Category="Business">2000</SoftwareCategory>
+		</Feature>
+		
+	</Features>
+</SoftwareType>

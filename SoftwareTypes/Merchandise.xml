@@ -1,0 +1,85 @@
+<SoftwareType>
+	<Name>Merchandise</Name>
+	<Description>Special shirts/gear.</Description>
+		<Categories>
+		<Category Name="Shirts">
+			<Description></Description>
+			<Popularity>0.3</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Gaming Gear">
+			<Description></Description>
+			<Popularity>0.3</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	
+	<Random>0.1</Random>
+	<Popularity>0.9</Popularity>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Category>Shirts</Category>
+	<NameGenerator>MerchandiseGen</NameGenerator>
+	<Features>
+	
+		<Feature Forced="TRUE">
+			<Name>Cheap material</Name>
+			<Description>Cheap material for cheap shirts.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>2</CodeArt>
+			<SoftwareCategory Category="Shirts">1980</SoftwareCategory>
+		</Feature>
+		
+		<Feature Forced="FALSE">
+			<Name>Company Logo</Name>
+			<Description>Print a nice logo of your company on the merchandises</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>2</CodeArt>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+		</Feature>
+		
+		<Feature From="Company Logo">
+			<Name>Better design</Name>
+			<Description>Make your design a lot better</Description>
+			<DevTime>2.5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>3</CodeArt>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+		</Feature>
+		
+		<Feature From="Cheap material">
+			<Name>Better Material</Name>
+			<Description>Make your material a lot better</Description>
+			<DevTime>2.5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>3.3</CodeArt>
+			<SoftwareCategory Category="Shirts">1980</SoftwareCategory>
+		</Feature>
+		
+		<Feature Forced="FALSE">
+			<Name>WebShop</Name>
+			<Description>Sell your merchandise online</Description>
+			<DevTime>2.5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>2</CodeArt>
+			<Dependency Software="Website">WebShop</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

@@ -1,0 +1,12 @@
+-start(base)
+-base(base)
+Bang
+DuckDuckStay
+YiHaa
+Jandeks
+VaCy
+DeeperSearch
+CloudScanner
+WebScanner
+Search
+PlanetSearch

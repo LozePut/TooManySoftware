@@ -1,0 +1,181 @@
+<SoftwareType>
+	<Name>Web Browser</Name>
+	<Description>A client for surfing on the internet.</Description>
+		<Categories>
+		<Category Name="Default">
+			<Description></Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	
+	
+	<Random>0.1</Random>
+	<Popularity>1</Popularity>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Category>Default</Category>
+	<NameGenerator>WebBrowserGen</NameGenerator>
+	<Features>
+	
+				<Feature Forced="TRUE">
+			<Name>Support HTML 5</Name>
+			<Description>Developers can write a basic site</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+	</Feature>
+				<Feature Forced="TRUE">
+			<Name>GUI</Name>
+			<Description>Basic GUI for users</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1.5</CodeArt>
+		</Feature>
+		
+						<Feature Forced="FALSE">
+			<Name>Tabs</Name>
+			<Description>Adds tabs for multitasking</Description>
+			<DevTime>0.25</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1.5</CodeArt>
+			<Dependency Software="Web Browser">GUI</Dependency>
+		</Feature>
+
+				<Feature Forced="FALSE">
+			<Name>Support C++</Name>
+			<Description>Developers can write a more beautiful website.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Web Browser">Support HTML 5</Dependency>
+		</Feature>
+		
+						<Feature Forced="FALSE">
+			<Name>Support JavaScript</Name>
+			<Description>Developers can make better sites.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0.5</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Web Browser">Support HTML 5</Dependency>
+		</Feature>
+		
+		<Feature Forced="FALSE">
+			<Name>Cookies</Name>
+			<Description>Website admins can check your online actions.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0.5</Innovation>
+			<Usability>0.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Web Browser">Support JavaScript</Dependency>
+		</Feature>
+		
+		<Feature Forced="FALSE">
+			<Name>Cookies Alert</Name>
+			<Description>Users can see when there are cookies on a website.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Web Browser">Cookies</Dependency>
+		</Feature>
+		
+						<Feature Forced="FALSE">
+			<Name>Support MySQL</Name>
+			<Description>Developers can make databases.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Server Hosting">1 GB</Dependency>
+			<Dependency Software="Web Browser">Support HTML 5</Dependency>
+		</Feature>
+		
+		
+		<Feature Forced="FALSE">
+			<Name>Advanced GUI</Name>
+			<Description>Improve the GUI</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1.5</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>2.5</CodeArt>
+			<Dependency Software="Web Browser">GUI</Dependency>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+		</Feature>
+
+				<Feature Forced="FALSE">
+			<Name>3D GUI</Name>
+			<Description>Adds 3 dimensions GUI</Description>
+			<DevTime>2</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>3</CodeArt>
+			<Research>2020</Research>
+			<Dependency Software="Web Browser">Advanced GUI</Dependency>
+			<Dependency Software="3D Editor">Vertex editing</Dependency>
+			</Feature>
+			
+							<Feature Forced="FALSE">
+			<Name>Addons</Name>
+			<Description>Adds community made addons to browser</Description>
+			<DevTime>1</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>3</CodeArt>
+			<Research>1990</Research>
+			<Dependency Software="Web Browser">Support JavaScript</Dependency>
+		</Feature>
+		
+		<Feature Forced="FALSE">
+			<Name>History</Name>
+			<Description>Customers can look back his activity on your webbrowser</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Web Browser">Support JavaScript</Dependency>
+		</Feature>
+		
+		<Feature Forced="FALSE">
+			<Name>Element Inspect</Name>
+			<Description>Customers can troll or find bugs with this tool</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Web Browser">Support HTML 5</Dependency>
+		</Feature>
+		
+		<Feature Forced="FALSE">
+			<Name>Support Mobile Device</Name>
+			<Description>Customers can also use the webbrowser on his mobile device</Description>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Web Browser">Support C++</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

@@ -1,0 +1,15 @@
+<CompanyType>
+	<Specialization>Test developers</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>1</Min>
+	<Max>3</Max>
+	<Types>
+		<Type Software="Mobile Apps">1</Type>
+		<Type Software="Server Hosting">1</Type>
+		<Type Software="Web Browser">1</Type>
+		<Type Software="Merchandise">1</Type>
+		<Type Software="Toolbox">1</Type>
+		<Type Software="Hacks">1</Type>
+		<Type Software="Website">1</Type>
+	</Types>
+</CompanyType>

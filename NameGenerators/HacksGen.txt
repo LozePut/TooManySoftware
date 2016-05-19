@@ -1,0 +1,10 @@
+-start(base)
+-base(base)
+Hacker
+Booter
+Trojan
+Ddoser
+Serverkiller
+NetStressers
+CyberKiller
+Cracker

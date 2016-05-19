@@ -1,0 +1,180 @@
+<SoftwareType>
+	<Name>Website</Name>
+	<Description>Make websites for your webbrowser.</Description>
+		<Categories>
+		<Category Name="Search Engine">
+			<NameGenerator>Website_SearchengineGen</NameGenerator>
+			<Description></Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Social Media">
+			<NameGenerator>Website_SocialmediaGen</NameGenerator>
+			<Description></Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Video Player">
+			<Description>Like YouTube and Twitch. And... More dirty sites</Description>
+			<NameGenerator>Website_VideoplayerGen</NameGenerator>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	<Random>0.1</Random>
+	<Popularity>1</Popularity>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<Category>Test</Category>
+	<Features>
+				<Feature Forced="TRUE">
+			<Name>HTML Based</Name>
+			<Description>Horrible looking site</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0.5</Usability>
+			<Stability>0.2</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Web Browser">Support HTML 5</Dependency>
+		</Feature>	
+		
+		<Feature Forced="FALSE">
+			<Name>C++</Name>
+			<Description>Makes the site looks better</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Web Browser">Support C++</Dependency>
+		</Feature>
+		
+		<Feature Forced="FALSE">
+			<Name>JavaScript</Name>
+			<Description>Makes the site works better</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Website">HTML Based</Dependency>
+			<Dependency Software="Web Browser">Support JavaScript</Dependency>
+		</Feature>
+		
+		<Feature Forced="FALSE">
+			<Name>WebShop</Name>
+			<Description>Sell special items</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>1.5</Innovation>
+			<Usability>1</Usability> 
+			<Stability>1</Stability>
+			<CodeArt>2</CodeArt>
+			<Dependency Software="Website">JavaScript</Dependency>
+		</Feature>
+		
+		<Feature Forced="FALSE">
+			<Name>Quantum Search</Name>
+			<Description>Makes searching (almost) instant</Description>
+			<DevTime>3</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>4</CodeArt>
+			<Unlock>2020</Unlock>
+			<Research>2020</Research>
+			<SoftwareCategory Category="Search Engine">1970</SoftwareCategory>
+			<Dependency Software="Server Hosting">Quantum</Dependency>
+		</Feature>
+		
+		<Feature From="Hide searches">
+			<Name>Save searches</Name>
+			<Description>Less privacy</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Search Engine">1970</SoftwareCategory>
+			<Dependency Software="Server Hosting">1 GB</Dependency>
+		</Feature>
+		
+		
+		<Feature Forced="FALSE">
+			<Name>Hide searches</Name>
+			<Description>More privacy</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Search Engine">1970</SoftwareCategory>
+		</Feature>
+		
+		<Feature Forced="TRUE">
+			<Name>Accounts</Name>
+			<Description>Customers can make own accountst\</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Social Media">1980</SoftwareCategory>
+		</Feature>
+		
+		<Feature Forced="FALSE">
+			<Name>Friends</Name>
+			<Description>Add friends to your account</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Social Media">1980</SoftwareCategory>
+		</Feature>
+		
+		<Feature Forced="FALSE">
+			<Name>Friend chats</Name>
+			<Description>Just chat with friends</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Website">Friends</Dependency>
+			<SoftwareCategory Category="Social Media">1980</SoftwareCategory>
+		</Feature>
+		
+		<Feature Forced="FALSE">
+			<Name>Public chat</Name>
+			<Description>Chat with every one who is using your website</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1.5</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Website">Friend chats</Dependency>
+			<SoftwareCategory Category="Social Media">1980</SoftwareCategory>
+		</Feature>
+		
+		<Feature Forced="FALSE">
+			<Name>Emoticons</Name>
+			<Description>Add emoticon to your messages</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1.5</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>2</CodeArt>
+			<Dependency Software="Website">Friend chats</Dependency>
+			<SoftwareCategory Category="Social Media">1980</SoftwareCategory>
+		</Feature>
+		
+		
+	</Features>
+</SoftwareType>
