@@ -19,12 +19,123 @@
 	<Category>Test</Category>
 	<Features>
 			<Feature Forced="TRUE">
-				<Name>HTML Based</Name>
-				<Description>Horrible looking site</Description>
+				<Name>Speaker</Name>
+				<Description>Just a basic speaker.</Description>
 				<DevTime>1</DevTime>
 				<Innovation>1</Innovation>
-				<Usability>0.5</Usability>
-				<Stability>0.2</Stability>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="TRUE">
+				<Name>-12db Bass</Name>
+				<Description>Horrible bass.</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0</Usability>
+				<Stability>0</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+			<Feature From="-12db Bass">
+				<Name>-6db Bass</Name>
+				<Description>A little bit better.</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.75</Innovation>
+				<Usability>0.75</Usability>
+				<Stability>0.75</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+			<Feature From="-6db Bass">
+				<Name>0db Bass</Name>
+				<Description>Still no bass...</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.75</Innovation>
+				<Usability>0.75</Usability>
+				<Stability>0.75</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+			<Feature From="0db Bass">
+				<Name>6db Bass</Name>
+				<Description>It's doable, but not great</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.1</Innovation>
+				<Usability>0.1</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+			<Feature From="6db Bass">
+				<Name>12db Bass</Name>
+				<Description>Great bass</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.1</Innovation>
+				<Usability>0.1</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="TRUE">
+				<Name>-12db Treble</Name>
+				<Description>Horrible treble.</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0</Usability>
+				<Stability>0</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+
+			<Feature From="-12db Treble">
+				<Name>-6db Treble</Name>
+				<Description>A little bit better.</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.75</Innovation>
+				<Usability>0.75</Usability>
+				<Stability>0.75</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+			<Feature From="-6db Treble">
+				<Name>0db Treble</Name>
+				<Description>Still no Treble...</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.75</Innovation>
+				<Usability>0.75</Usability>
+				<Stability>0.75</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+			<Feature From="0db Treble">
+				<Name>6db Treble</Name>
+				<Description>It's doable, but not great</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.1</Innovation>
+				<Usability>0.1</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+			<Feature From="6db Treble">
+				<Name>12db Treble</Name>
+				<Description>Great Treble</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.1</Innovation>
+				<Usability>0.1</Usability>
+				<Stability>0.1</Stability>
 				<CodeArt>0</CodeArt>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
