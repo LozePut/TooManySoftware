@@ -200,7 +200,7 @@
 	<Feature Forced="FALSE">
 			<Name>Surround sound</Name>
 			<Description>You can hear from all sides.</Description>
-			<Research>2000</Research>
+			<Research>2005</Research>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>

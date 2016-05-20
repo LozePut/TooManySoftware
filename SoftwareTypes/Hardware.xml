@@ -1,5 +1,5 @@
 <SoftwareType>
-	<Name>Peripherals</Name>
+	<Name>Hardware</Name>
 	<Description>Hardware such as mices, keyboards, headsets</Description>
 		<Categories>
 		<Category Name="Audio">
@@ -26,6 +26,30 @@
 				<Usability>1</Usability>
 				<Stability>1</Stability>
 				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="TRUE">
+				<Name>Stereo</Name>
+				<Description>Sound from 2 sides.</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.75</Innovation>
+				<Usability>0.75</Usability>
+				<Stability>0.75</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="FALSE">
+				<Name>Surround</Name>
+				<Description>You can hear from all sides.</Description>
+				<Research>2005</Research>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.1</Innovation>
+				<Usability>0.1</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0</CodeArt>
+				<Dependency Software="Peripherals">Audio</Dependency>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
 
@@ -65,6 +89,7 @@
 			<Feature From="0db Bass">
 				<Name>6db Bass</Name>
 				<Description>It's doable, but not great</Description>
+				<Research>1990</Research>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.1</Innovation>
 				<Usability>0.1</Usability>
@@ -76,6 +101,7 @@
 			<Feature From="6db Bass">
 				<Name>12db Bass</Name>
 				<Description>Great bass</Description>
+				<Research>2000</Research>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.1</Innovation>
 				<Usability>0.1</Usability>
@@ -121,6 +147,7 @@
 			<Feature From="0db Treble">
 				<Name>6db Treble</Name>
 				<Description>It's doable, but not great</Description>
+				<Research>1990</Research>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.1</Innovation>
 				<Usability>0.1</Usability>
@@ -132,6 +159,7 @@
 			<Feature From="6db Treble">
 				<Name>12db Treble</Name>
 				<Description>Great Treble</Description>
+				<Research>2000</Research>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.1</Innovation>
 				<Usability>0.1</Usability>
