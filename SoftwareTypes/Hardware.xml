@@ -49,7 +49,7 @@
 				<Usability>0.1</Usability>
 				<Stability>0.1</Stability>
 				<CodeArt>0</CodeArt>
-				<Dependency Software="Peripherals">Audio</Dependency>
+				<Dependency Software="Hardware">Stereo</Dependency>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
 
