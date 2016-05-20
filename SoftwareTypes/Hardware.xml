@@ -1,4 +1,5 @@
 <SoftwareType>
+	<Name>Hardware</Name>
 	<Description>Hardware such as mices, keyboards, headsets</Description>
 		<Categories>
 		<Category Name="Audio">
