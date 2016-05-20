@@ -9,6 +9,22 @@
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
+
+		<Category Name="Mices">
+			<Description>Just a mouse</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+
+		<Category Name="Keyboards">
+			<Description>Just a keyboard</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
 	</Categories>
 	<NameGenerator>PeripheralsGen</NameGenerator>
 	<Random>0.1</Random>
@@ -166,6 +182,80 @@
 				<Stability>0.1</Stability>
 				<CodeArt>0</CodeArt>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+
+
+
+
+
+
+			<Feature Forced="TRUE">
+				<Name>Ball sensor</Name>
+				<Description>A ball in the mouse to track movement</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.5</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="FALSE">
+				<Name>Trackball</Name>
+				<Description>Move your cursor through your thumb</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.5</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="FALSE">
+				<Name>Optical</Name>
+				<Description>Includes mini CCD camera to track movement</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.5</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="FALSE">
+				<Name>Wireless</Name>
+				<Description>Just not an annoying wire</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+			</Feature>
+
+			<Feature FROM="LED">
+				<Name>Laser</Name>
+				<Description>Not that annoying red light as sensor</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1.5</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="Hardware">Optical</Dependency>
+				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="FALSE">
+				<Name>LED</Name>
+				<Description>Red LED as sensor</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<Dependency Software="Hardware">Optical</Dependency>
+				<SoftwareCategory Category="Mices">1</SoftwareCategory>
 			</Feature>
 
 		</Features>
