@@ -18,7 +18,7 @@
 			<Iterative>1</Iterative>
 		</Category>
 
-		<Category Name="Keyboards">
+		<Category Name="Keyboard">
 			<Description>Just a keyboard</Description>
 			<Popularity>1</Popularity>
 			<Retention>0.9</Retention>
@@ -190,7 +190,19 @@
 
 
 
+
 			<Feature Forced="TRUE">
+				<Name>Buttons</Name>
+				<Description>A simple right/left buttons</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.5</Stability>
+				<CodeArt>0</CodeArt>
+				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="False">
 				<Name>Ball sensor</Name>
 				<Description>A ball in the mouse to track movement</Description>
 				<DevTime>0.5</DevTime>
@@ -201,7 +213,7 @@
 				<SoftwareCategory Category="Mices">1</SoftwareCategory>
 			</Feature>
 
-			<Feature Forced="FALSE">
+			<Feature From="Ball sensor">
 				<Name>Trackball</Name>
 				<Description>Move your cursor through your thumb</Description>
 				<DevTime>0.5</DevTime>
@@ -212,7 +224,7 @@
 				<SoftwareCategory Category="Mices">1</SoftwareCategory>
 			</Feature>
 
-			<Feature Forced="FALSE">
+			<Feature From="Trackball">
 				<Name>Optical</Name>
 				<Description>Includes mini CCD camera to track movement</Description>
 				<DevTime>0.5</DevTime>
@@ -250,13 +262,124 @@
 				<Name>LED</Name>
 				<Description>Red LED as sensor</Description>
 				<DevTime>0.5</DevTime>
-				<Innovation>1</Innovation>
+				<Innovation>0.75</Innovation>
 				<Usability>1</Usability>
 				<Stability>1</Stability>
 				<CodeArt>1</CodeArt>
 				<Dependency Software="Hardware">Optical</Dependency>
 				<SoftwareCategory Category="Mices">1</SoftwareCategory>
 			</Feature>
+
+			<Feature Forced="FALSE">
+				<Name>Weights</Name>
+				<Description>Some weights to make your mouse heavier or lighter</Description>
+				<DevTime>0.2</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+			</Feature>
+
+
+
+
+
+
+
+
+			<Feature Forced="TRUE">
+				<Name>Basic switches</Name>
+				<Description>Bad, basic switches</Description>
+				<DevTime>2</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+
+			<Feature From="Basic switches">
+				<Name>Laptop switches</Name>
+				<Description>Small switches for laptops.</Description>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+
+			<Feature From="Laptop switches">
+				<Name>Blue mechanical switches</Name>
+				<Description>Tactile feeling</Description>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+
+			<Feature From="Blue mechanical switches">
+				<Name>Red mechanical switches</Name>
+				<Description>Linear Feeling</Description>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+
+			<Feature From="Red mechanical switches">
+				<Name>Brown mechanical switches</Name>
+				<Description>Soft tactile feeling</Description>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+
+			<Feature From="Brown mechanical switches">
+				<Name>Black mechanical switches</Name>
+				<Description>Linear Feeling</Description>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="False">
+				<Name>Extra Small</Name>
+				<Description>Smaller than a normal laptop switch</Description>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.5</Stability>
+				<CodeArt>1</CodeArt>
+				<Unlock>2000</Unlock>
+				<Dependency Software="Hardware">Laptop switches</Dependency>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+
+			<Feature From="Laptop switches">
+				<Name>Custom font on keys</Name>
+				<Description>Customers can place his favourite font on the keys</Description>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1.5</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<Research>2020</Research>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+
+
 
 		</Features>
 	</SoftwareType>

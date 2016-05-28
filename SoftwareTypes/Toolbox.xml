@@ -186,7 +186,7 @@
 			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
 	</Feature>
 
-	<Feature Forced="TRUE">
+	<Feature FROM="Surround sound">
 			<Name>Stereo sound</Name>
 			<Description>Sound from 2 sides</Description>
 			<DevTime>1</DevTime>
@@ -197,7 +197,7 @@
 			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
 	</Feature>
 
-	<Feature Forced="FALSE">
+	<Feature FROM="Stereo sound">
 			<Name>Surround sound</Name>
 			<Description>You can hear from all sides.</Description>
 			<Research>2005</Research>
@@ -206,7 +206,6 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Toolbox">Stereo sound</Dependency>
 			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
 	</Feature>
 
