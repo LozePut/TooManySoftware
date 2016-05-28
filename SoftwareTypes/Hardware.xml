@@ -367,7 +367,7 @@
 				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
 			</Feature>
 
-			<Feature From="Laptop switches">
+			<Feature Forced="False">
 				<Name>Custom font on keys</Name>
 				<Description>Customers can place his favourite font on the keys</Description>
 				<DevTime>1</DevTime>
