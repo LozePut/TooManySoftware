@@ -1,5 +1,5 @@
 -start(base)
 -base(base)
-MicePro
-Micerosoft
+MousePro
+MouseX
 Logichmouse

@@ -1,6 +1,6 @@
 <SoftwareType>
 	<Name>Hardware</Name>
-	<Description>Hardware such as mices, keyboards, headsets</Description>
+	<Description>Hardware such as mouses, keyboards, headsets</Description>
 		<Categories>
 		<Category Name="Audio">
 			<Description>Headsets and speakers etc</Description>
@@ -11,15 +11,14 @@
 			<NameGenerator>Hardware_AudioGen</NameGenerator>
 		</Category>
 
-		<Category Name="Mices">
+		<Category Name="Mouses">
 			<Description>Just a mouse</Description>
 			<Popularity>1</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
-			<NameGenerator>Hardware_MicesGen</NameGenerator>
+			<NameGenerator>Hardware_MouseGen</NameGenerator>
 		</Category>
-
 		<Category Name="Keyboard">
 			<Description>Just a keyboard</Description>
 			<Popularity>1</Popularity>
@@ -201,7 +200,7 @@
 				<Usability>0.5</Usability>
 				<Stability>0.5</Stability>
 				<CodeArt>0</CodeArt>
-				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+				<SoftwareCategory Category="Mouses">1</SoftwareCategory>
 			</Feature>
 
 			<Feature Forced="False">
@@ -212,7 +211,7 @@
 				<Usability>0.5</Usability>
 				<Stability>0.5</Stability>
 				<CodeArt>0</CodeArt>
-				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+				<SoftwareCategory Category="Mouses">1</SoftwareCategory>
 			</Feature>
 
 			<Feature From="Ball sensor">
@@ -223,7 +222,7 @@
 				<Usability>0.5</Usability>
 				<Stability>0.5</Stability>
 				<CodeArt>0</CodeArt>
-				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+				<SoftwareCategory Category="Mouses">1</SoftwareCategory>
 			</Feature>
 
 			<Feature From="Trackball">
@@ -234,7 +233,7 @@
 				<Usability>0.5</Usability>
 				<Stability>0.5</Stability>
 				<CodeArt>0</CodeArt>
-				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+				<SoftwareCategory Category="Mouses">1</SoftwareCategory>
 			</Feature>
 
 			<Feature Forced="FALSE">
@@ -245,7 +244,7 @@
 				<Usability>1</Usability>
 				<Stability>1</Stability>
 				<CodeArt>1</CodeArt>
-				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+				<SoftwareCategory Category="Mouses">1</SoftwareCategory>
 			</Feature>
 
 			<Feature FROM="LED">
@@ -257,7 +256,7 @@
 				<Stability>1</Stability>
 				<CodeArt>1</CodeArt>
 				<Dependency Software="Hardware">Optical</Dependency>
-				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+				<SoftwareCategory Category="Mouses">1</SoftwareCategory>
 			</Feature>
 
 			<Feature Forced="FALSE">
@@ -269,7 +268,7 @@
 				<Stability>1</Stability>
 				<CodeArt>1</CodeArt>
 				<Dependency Software="Hardware">Optical</Dependency>
-				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+				<SoftwareCategory Category="Mouses">1</SoftwareCategory>
 			</Feature>
 
 			<Feature Forced="FALSE">
@@ -280,7 +279,7 @@
 				<Usability>1</Usability>
 				<Stability>1</Stability>
 				<CodeArt>1</CodeArt>
-				<SoftwareCategory Category="Mices">1</SoftwareCategory>
+				<SoftwareCategory Category="Mouses">1</SoftwareCategory>
 			</Feature>
 
 
