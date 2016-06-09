@@ -8,6 +8,7 @@
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
+			<NameGenerator>Hardware_AudioGen</NameGenerator>
 		</Category>
 
 		<Category Name="Mices">
@@ -16,6 +17,7 @@
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
+			<NameGenerator>Hardware_MicesGen</NameGenerator>
 		</Category>
 
 		<Category Name="Keyboard">
@@ -24,9 +26,9 @@
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
+			<NameGenerator>Hardware_KeyboardGen</NameGenerator>
 		</Category>
 	</Categories>
-	<NameGenerator>PeripheralsGen</NameGenerator>
 	<Random>0.1</Random>
 	<Popularity>1</Popularity>
 	<OSSpecific>FALSE</OSSpecific>
@@ -292,21 +294,21 @@
 				<Name>Basic switches</Name>
 				<Description>Bad, basic switches</Description>
 				<DevTime>2</DevTime>
-				<Innovation>1</Innovation>
-				<Usability>1</Usability>
-				<Stability>1</Stability>
-				<CodeArt>1</CodeArt>
+				<Innovation>0.5</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.5</Stability>
+				<CodeArt>0.5</CodeArt>
 				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
 			</Feature>
 
 			<Feature From="Basic switches">
 				<Name>Laptop switches</Name>
 				<Description>Small switches for laptops.</Description>
-				<DevTime>1</DevTime>
-				<Innovation>1</Innovation>
-				<Usability>1</Usability>
-				<Stability>1</Stability>
-				<CodeArt>1</CodeArt>
+				<DevTime>0.7</DevTime>
+				<Innovation>0.7</Innovation>
+				<Usability>0.7</Usability>
+				<Stability>0.7</Stability>
+				<CodeArt>0.7</CodeArt>
 				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
 			</Feature>
 
@@ -376,6 +378,44 @@
 				<Stability>1</Stability>
 				<CodeArt>1</CodeArt>
 				<Research>2020</Research>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="False">
+				<Name>Basic coloured lights</Name>
+				<Description>Just 1 color light.</Description>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<Unlock>2000</Unlock>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="False">
+				<Name>Advanced coloured lights</Name>
+				<Description>The 3 primary colors.</Description>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<Unlock>2005</Unlock>
+				<Dependency Software="Hardware">Basic coloured lights</Dependency>
+				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="False">
+				<Name>All colours</Name>
+				<Description>All colors that exist</Description>
+				<DevTime>1</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<Unlock>2010</Unlock>
+				<Dependency Software="Hardware">Advanced coloured lights</Dependency>
 				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
 			</Feature>
 
