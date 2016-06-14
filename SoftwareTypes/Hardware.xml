@@ -70,6 +70,32 @@
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
 
+			<Feature Forced="FALSE">
+				<Name>5.1</Name>
+				<Description>You can hear from all sides.</Description>
+				<Research>2005</Research>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.1</Innovation>
+				<Usability>0.1</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0</CodeArt>
+				<Dependency Software="Hardware">Surround</Dependency>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="FALSE">
+				<Name>7.1</Name>
+				<Description>You can hear from 7 sides.</Description>
+				<Research>2011</Research>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.1</Innovation>
+				<Usability>0.1</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0</CodeArt>
+				<Dependency Software="Hardware">Surround</Dependency>
+				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+			</Feature>
+
 			<Feature Forced="TRUE">
 				<Name>-12db Bass</Name>
 				<Description>Horrible bass.</Description>

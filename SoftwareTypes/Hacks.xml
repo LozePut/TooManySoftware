@@ -5,21 +5,21 @@
 		<Categories>
 		<Category Name="Botnet">
 			<Description>A big net of PC for DDOS</Description>
-			<Popularity>0.4</Popularity>
+			<Popularity>0.5</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Hack tool">
 			<Description>Trojan. Malware etc</Description>
-			<Popularity>0.4</Popularity>
+			<Popularity>0.5</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 	</Categories>
-	<Random>0.1 </Random>
-	<Popularity>0.4</Popularity>
+	<Random>0.1</Random>
+	<Popularity>0.6</Popularity>
 	<Category>Botnet</Category>
 	<OSSpecific>FALSE</OSSpecific>
 	<OneClient>FALSE</OneClient>
@@ -34,7 +34,7 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>3</CodeArt>
-			<Server>0.0000001</Server>
+			<Server>0.000001</Server>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
 				<Feature Forced="FALSE">
@@ -46,7 +46,7 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>3</CodeArt>
-			<Server>0.005</Server>
+			<Server>0.001</Server>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
 				<Feature Forced="FALSE">
@@ -58,7 +58,7 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>3</CodeArt>
-			<Server>0.01</Server>
+			<Server>0.001</Server>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
 
@@ -71,7 +71,7 @@
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>3</CodeArt>
-			<Server>0.1</Server>
+			<Server>0.01</Server>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
 

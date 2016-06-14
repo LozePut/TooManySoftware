@@ -28,7 +28,7 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>2</CodeArt>
-			<Server>0.0001</Server>
+			<Server>0.000001</Server>
 		</Feature>
 				<Feature Forced="FALSE">
 			<Name>Online Support</Name>
@@ -38,7 +38,7 @@
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>2</CodeArt>
-			<Server>0.0001</Server>
+			<Server>0.000001</Server>
 			<Dependency Software="Server Hosting">Online Shop</Dependency>
 			<Dependency Software="Web Browser">Support HTML 5</Dependency>
 		</Feature>
@@ -50,7 +50,7 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.00000000001</Server>
+			<Server>0.0001</Server>
 		</Feature>
 				<Feature Forced="FALSE">
 			<Name>5 GB</Name>
@@ -61,7 +61,7 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.05</Server>
+			<Server>0.0001</Server>
 		</Feature>
 				<Feature Forced="FALSE">
 			<Name>10 GB</Name>
@@ -72,9 +72,9 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.01</Server>
+			<Server>0.001</Server>
 		</Feature>
-		
+
 				<Feature Forced="FALSE">
 			<Name>1 TB</Name>
 			<Description>Give all users +1 TB. WARNING: YOU NEED A LARGE SERVER FARM!</Description>
@@ -84,9 +84,10 @@
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Unlock></Unlock>
+			<Unlock>2000</Unlock>
+			<Server>0.01</Server>
 			</Feature>
-			
+
 			<Feature FROM="HDD">
 			<Name>SSD</Name>
 			<Description>Really fast</Description>
@@ -98,7 +99,7 @@
 			<CodeArt>2</CodeArt>
 			<Server>0.0001</Server>
 		</Feature>
-		
+
 			<Feature Forced="TRUE">
 			<Name>HDD</Name>
 			<Description>Slow, But high storage</Description>
@@ -108,7 +109,7 @@
 			<Stability>1</Stability>
 			<CodeArt>2</CodeArt>
 		</Feature>
-			
+
 			<Feature FROM="SSD">
 			<Name>SSHD</Name>
 			<Description>Fast and high storage</Description>
@@ -119,7 +120,7 @@
 			<Unlock>2010</Unlock>
 			<CodeArt>2</CodeArt>
 			</Feature>
-			
+
 			<Feature Forced="FALSE">
 			<Name>Ddos Protection</Name>
 			<Description>Defend customers from ddos attacks</Description>
@@ -130,7 +131,7 @@
 			<Unlock>1990</Unlock>
 			<CodeArt>0.5</CodeArt>
 			</Feature>
-			
+
 			<Feature Forced="FALSE">
 			<Name>Quantum</Name>
 			<Description>A lot faster and smaller than SSD</Description>
