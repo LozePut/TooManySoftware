@@ -1,10 +1,12 @@
--<Scenario>
+<Scenario>
 <Name>Dev Mode (For testing)</Name>
--<Money>
+<Goals>
+	
+</Goals>
+<Money>
 	<Amount>999999999</Amount>
 </Money>
-<Goals> </Goals>
--<Years>
+<Years>
 
 		<Year>1980</Year>
 		<Year>1985</Year>

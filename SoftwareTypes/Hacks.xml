@@ -5,21 +5,21 @@
 		<Categories>
 		<Category Name="Botnet">
 			<Description>A big net of PC for DDOS</Description>
-			<Popularity>0.5</Popularity>
+			<Popularity>0.4</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Hack tool">
 			<Description>Trojan. Malware etc</Description>
-			<Popularity>0.5</Popularity>
+			<Popularity>0.4</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 	</Categories>
-	<Random>0.1</Random>
-	<Popularity>0.6</Popularity>
+	<Random>0.1 </Random>
+	<Popularity>0.4</Popularity>
 	<Category>Botnet</Category>
 	<OSSpecific>FALSE</OSSpecific>
 	<OneClient>FALSE</OneClient>
@@ -28,17 +28,19 @@
 	<Features>
 			<Feature Forced="TRUE">
 			<Name>1 GB</Name>
+			<Category>System</Category>
 			<Description>Give all users +1 GB.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>3</CodeArt>
-			<Server>0.000001</Server>
+			<Server>0.0000001</Server>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
 				<Feature Forced="FALSE">
 			<Name>5 GB</Name>
+			<Category>System</Category>
 			<Description>Give all users +5 GB.</Description>
 			<Unlock>1995</Unlock>
 			<DevTime>2</DevTime>
@@ -46,11 +48,12 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>3</CodeArt>
-			<Server>0.001</Server>
+			<Server>0.005</Server>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
 				<Feature Forced="FALSE">
 			<Name>10 GB</Name>
+			<Category>System</Category>
 			<Description>Give all users +10 GB.</Description>
 			<Unlock>2000</Unlock>
 			<DevTime>2</DevTime>
@@ -58,12 +61,13 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>3</CodeArt>
-			<Server>0.001</Server>
+			<Server>0.01</Server>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
 
 				<Feature Forced="FALSE">
 			<Name>1 TB</Name>
+			<Category>System</Category>
 			<Description>Give all users +1 TB. WARNING: YOU NEED A LARGE SERVER FARM!</Description>
 			<Unlock>2015</Unlock>
 			<DevTime>3</DevTime>
@@ -71,12 +75,13 @@
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>3</CodeArt>
-			<Server>0.01</Server>
+			<Server>0.1</Server>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
 
 					<Feature Forced="FALSE">
 			<Name>Floods</Name>
+			<Category>System</Category>
 			<Description>send so much traffic that it overwhelms the bandwidth</Description>
 			<DevTime>3</DevTime>
 			<Innovation>0</Innovation>
@@ -89,6 +94,7 @@
 
 					<Feature Forced="FALSE">
 			<Name>TCP</Name>
+			<Category>System</Category>
 			<Description>focuses on actual web servers, firewalls and load balancers to disrupt connections, resulting in exhausting their finite number of concurrent connections the device can support.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>0</Innovation>
@@ -101,6 +107,7 @@
 
 		<Feature Forced="FALSE">
 			<Name>Layer 7</Name>
+			<Category>System</Category>
 			<Description>specifically targets weaknesses in an application or server with the goal of establishing a connection and exhausting it by monopolizing processes and transactions.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -114,6 +121,7 @@
 
 						<Feature Forced="FALSE">
 			<Name>Trojan</Name>
+			<Category>System</Category>
 			<Description>Save keyboard input. So you earn passwords</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -124,14 +132,40 @@
 		</Feature>
 
 
-								<Feature Forced="FALSE">
+		<Feature Forced="FALSE">
 			<Name>Account Cracker</Name>
+			<Category>System</Category>
 			<Description>Try all possible passwords</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>3</CodeArt>
+			<SoftwareCategory Category="Hack tool">1990</SoftwareCategory>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Spammer</Name>
+			<Category>System</Category>
+			<Description>Spams messages to someone</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>3</CodeArt>
+			<SoftwareCategory Category="Hack tool">1990</SoftwareCategory>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Email Spammer</Name>
+			<Category>System</Category>
+			<Description>Spams emails to someone</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Hacks">Spammer</Dependency>
 			<SoftwareCategory Category="Hack tool">1990</SoftwareCategory>
 		</Feature>
 	</Features>

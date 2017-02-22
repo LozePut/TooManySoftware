@@ -9,15 +9,8 @@
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
-		<Category Name="Gaming Gear">
-			<Description></Description>
-			<Popularity>0.3</Popularity>
-			<Retention>0.9</Retention>
-			<TimeScale>1</TimeScale>
-			<Iterative>1</Iterative>
-		</Category>
 	</Categories>
-	
+
 	<Random>0.1</Random>
 	<Popularity>0.9</Popularity>
 	<OSSpecific>FALSE</OSSpecific>
@@ -26,9 +19,10 @@
 	<Category>Shirts</Category>
 	<NameGenerator>MerchandiseGen</NameGenerator>
 	<Features>
-	
+
 		<Feature Forced="TRUE">
 			<Name>Cheap material</Name>
+			<Category>Material</Category>
 			<Description>Cheap material for cheap shirts.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -37,9 +31,10 @@
 			<CodeArt>2</CodeArt>
 			<SoftwareCategory Category="Shirts">1980</SoftwareCategory>
 		</Feature>
-		
+
 		<Feature Forced="FALSE">
 			<Name>Company Logo</Name>
+			<Category>Physical</Category>
 			<Description>Print a nice logo of your company on the merchandises</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -48,9 +43,34 @@
 			<CodeArt>2</CodeArt>
 			<Dependency Software="2D Editor">Image rendering</Dependency>
 		</Feature>
-		
-		<Feature From="Company Logo">
+
+		<Feature Forced="FALSE">
+			<Name>Company Name</Name>
+			<Category>Physical</Category>
+			<Description>Print youre companies name on the merchandises</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Basic design</Name>
+			<Category>Physical</Category>
+			<Description></Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+		</Feature>
+
+		<Feature From="Basic design">
 			<Name>Better design</Name>
+			<Category>Physical</Category>
 			<Description>Make your design a lot better</Description>
 			<DevTime>2.5</DevTime>
 			<Innovation>1</Innovation>
@@ -59,9 +79,10 @@
 			<CodeArt>3</CodeArt>
 			<Dependency Software="2D Editor">Image rendering</Dependency>
 		</Feature>
-		
+
 		<Feature From="Cheap material">
 			<Name>Better Material</Name>
+			<Category>Material</Category>
 			<Description>Make your material a lot better</Description>
 			<DevTime>2.5</DevTime>
 			<Innovation>1</Innovation>
@@ -70,9 +91,10 @@
 			<CodeArt>3.3</CodeArt>
 			<SoftwareCategory Category="Shirts">1980</SoftwareCategory>
 		</Feature>
-		
+
 		<Feature Forced="FALSE">
 			<Name>WebShop</Name>
+			<Category>System</Category>
 			<Description>Sell your merchandise online</Description>
 			<DevTime>2.5</DevTime>
 			<Innovation>1</Innovation>

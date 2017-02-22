@@ -12,11 +12,13 @@
 	<Amount>900</Amount>
 	<Amount>1000</Amount>
 </Money>
-<Goals> </Goals>
+<Goals>
+	
+</Goals>
 -<Years>
 
 		<Year>1980</Year>
-		<Year>1985</Year>	
+		<Year>1985</Year>
 		<Year>1990</Year>
 		<Year>1995</Year>
 		<Year>2000</Year>

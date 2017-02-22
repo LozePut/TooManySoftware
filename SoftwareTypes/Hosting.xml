@@ -17,43 +17,47 @@
 	<OneClient>FALSE</OneClient>
 	<InHouse>TRUE</InHouse>
 	<Category>Test</Category>
-	<OSLimit>Computer</OSLimit><!-- This means this software only works on Computer operating systems -->
+	<OSLimit>Computer</OSLimit>
 	<NameGenerator>ServerHostingGen</NameGenerator>
 	<Features>
-				<Feature Forced="FALSE">
+		<Feature Forced="FALSE">
 			<Name>Online Shop</Name>
+			<Category>System</Category>
 			<Description>Make website for selling your servers</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>2</CodeArt>
-			<Server>0.000001</Server>
+			<Server>0.0001</Server>
 		</Feature>
-				<Feature Forced="FALSE">
+		<Feature Forced="FALSE">
 			<Name>Online Support</Name>
+			<Category>System</Category>
 			<Description>Support users with problems</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>2</CodeArt>
-			<Server>0.000001</Server>
+			<Server>0.0001</Server>
 			<Dependency Software="Server Hosting">Online Shop</Dependency>
 			<Dependency Software="Web Browser">Support HTML 5</Dependency>
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>1 GB</Name>
+			<Category>System</Category>
 			<Description>Give all users +1 GB.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.0001</Server>
+			<Server>0.00000000001</Server>
 		</Feature>
 				<Feature Forced="FALSE">
 			<Name>5 GB</Name>
+			<Category>System</Category>
 			<Description>Give all users +5 GB.</Description>
 			<Unlock>1995</Unlock>
 			<DevTime>2</DevTime>
@@ -61,10 +65,11 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.0001</Server>
+			<Server>0.05</Server>
 		</Feature>
 				<Feature Forced="FALSE">
 			<Name>10 GB</Name>
+			<Category>System</Category>
 			<Description>Give all users +10 GB.</Description>
 			<Unlock>2000</Unlock>
 			<DevTime>2</DevTime>
@@ -72,11 +77,12 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.001</Server>
+			<Server>0.01</Server>
 		</Feature>
 
 				<Feature Forced="FALSE">
 			<Name>1 TB</Name>
+			<Category>System</Category>
 			<Description>Give all users +1 TB. WARNING: YOU NEED A LARGE SERVER FARM!</Description>
 			<Unlock>2015</Unlock>
 			<DevTime>3</DevTime>
@@ -84,12 +90,12 @@
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Unlock>2000</Unlock>
-			<Server>0.01</Server>
+			<Unlock></Unlock>
 			</Feature>
 
 			<Feature FROM="HDD">
 			<Name>SSD</Name>
+			<Category>System</Category>
 			<Description>Really fast</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -102,6 +108,7 @@
 
 			<Feature Forced="TRUE">
 			<Name>HDD</Name>
+			<Category>System</Category>
 			<Description>Slow, But high storage</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -112,6 +119,7 @@
 
 			<Feature FROM="SSD">
 			<Name>SSHD</Name>
+			<Category>System</Category>
 			<Description>Fast and high storage</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -123,6 +131,7 @@
 
 			<Feature Forced="FALSE">
 			<Name>Ddos Protection</Name>
+			<Category>System</Category>
 			<Description>Defend customers from ddos attacks</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -134,6 +143,7 @@
 
 			<Feature Forced="FALSE">
 			<Name>Quantum</Name>
+			<Category>System</Category>
 			<Description>A lot faster and smaller than SSD</Description>
 			<DevTime>4</DevTime>
 			<Innovation>4</Innovation>

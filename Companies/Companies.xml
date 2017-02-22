@@ -6,7 +6,12 @@
 	<Founded>2-1975</Founded>
 	<Products>
 		<Product>
-			<Name>Test OS</Name>
+			<Name>Lion OS</Name>
+			<CodeProgress>1</CodeProgress>
+			<ArtProgress>1</ArtProgress>
+			<CodeQuality>1</CodeQuality>
+			<ArtQuality>1</ArtQuality>
+			<Price>150</Price>
 			<Release>1-1980</Release>
 			<Type>Operating System</Type>
 			<Category>Computer</Category>
@@ -21,26 +26,6 @@
 			<Popularity>1</Popularity>
 			<SequelTo></SequelTo>
 			<OS>
-			</OS>
-			<Needs>
-			</Needs>
-		</Product>
-		<Product>
-			<Name>Test product</Name>
-			<Release>5-1985</Release>
-			<Type>Test Software</Type>
-			<Category>Test 1</Category>
-			<Features>
-				<Feature></Feature>
-			</Features>
-			<Quality>1</Quality>
-			<OpenSource>FALSE</OpenSource>
-			<InHouse>FALSE</InHouse>
-			<Reception>1</Reception>
-			<Popularity>1</Popularity>
-			<SequelTo></SequelTo>
-			<OS>
-				<Name>Test OS</Name>
 			</OS>
 			<Needs>
 			</Needs>

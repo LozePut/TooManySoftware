@@ -27,6 +27,15 @@
 			<Iterative>1</Iterative>
 			<NameGenerator>Hardware_KeyboardGen</NameGenerator>
 		</Category>
+		<Category Name="VR">
+			<Description>Virtual Reality</Description>
+			<Unlock>2014</Unlock>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+			<NameGenerator>Hardware_VRGen</NameGenerator>
+		</Category>
 	</Categories>
 	<Random>0.1</Random>
 	<Popularity>1</Popularity>
@@ -37,6 +46,7 @@
 	<Features>
 			<Feature Forced="TRUE">
 				<Name>Speaker</Name>
+				<Category>Physical</Category>
 				<Description>Just a basic speaker.</Description>
 				<DevTime>1</DevTime>
 				<Innovation>1</Innovation>
@@ -46,8 +56,9 @@
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
 
-			<Feature Forced="TRUE">
+			<Feature Forced="FALSE">
 				<Name>Stereo</Name>
+				<Category>Physical</Category>
 				<Description>Sound from 2 sides.</Description>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.75</Innovation>
@@ -57,8 +68,9 @@
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
 
-			<Feature Forced="FALSE">
+			<Feature From="Stereo">
 				<Name>Surround</Name>
+				<Category>Physical</Category>
 				<Description>You can hear from all sides.</Description>
 				<Research>2005</Research>
 				<DevTime>0.5</DevTime>
@@ -70,34 +82,9 @@
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
 
-			<Feature Forced="FALSE">
-				<Name>5.1</Name>
-				<Description>You can hear from all sides.</Description>
-				<Research>2005</Research>
-				<DevTime>0.5</DevTime>
-				<Innovation>0.1</Innovation>
-				<Usability>0.1</Usability>
-				<Stability>0.1</Stability>
-				<CodeArt>0</CodeArt>
-				<Dependency Software="Hardware">Surround</Dependency>
-				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
-			</Feature>
-
-			<Feature Forced="FALSE">
-				<Name>7.1</Name>
-				<Description>You can hear from 7 sides.</Description>
-				<Research>2011</Research>
-				<DevTime>0.5</DevTime>
-				<Innovation>0.1</Innovation>
-				<Usability>0.1</Usability>
-				<Stability>0.1</Stability>
-				<CodeArt>0</CodeArt>
-				<Dependency Software="Hardware">Surround</Dependency>
-				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
-			</Feature>
-
 			<Feature Forced="TRUE">
 				<Name>-12db Bass</Name>
+				<Category>Physical</Category>
 				<Description>Horrible bass.</Description>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.5</Innovation>
@@ -109,6 +96,7 @@
 
 			<Feature From="-12db Bass">
 				<Name>-6db Bass</Name>
+				<Category>Physical</Category>
 				<Description>A little bit better.</Description>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.75</Innovation>
@@ -120,6 +108,7 @@
 
 			<Feature From="-6db Bass">
 				<Name>0db Bass</Name>
+				<Category>Physical</Category>
 				<Description>Still no bass...</Description>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.75</Innovation>
@@ -131,6 +120,7 @@
 
 			<Feature From="0db Bass">
 				<Name>6db Bass</Name>
+				<Category>Physical</Category>
 				<Description>It's doable, but not great</Description>
 				<Research>1990</Research>
 				<DevTime>0.5</DevTime>
@@ -143,6 +133,7 @@
 
 			<Feature From="6db Bass">
 				<Name>12db Bass</Name>
+				<Category>Physical</Category>
 				<Description>Great bass</Description>
 				<Research>2000</Research>
 				<DevTime>0.5</DevTime>
@@ -155,6 +146,7 @@
 
 			<Feature Forced="TRUE">
 				<Name>-12db Treble</Name>
+				<Category>Physical</Category>
 				<Description>Horrible treble.</Description>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.5</Innovation>
@@ -167,6 +159,7 @@
 
 			<Feature From="-12db Treble">
 				<Name>-6db Treble</Name>
+				<Category>Physical</Category>
 				<Description>A little bit better.</Description>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.75</Innovation>
@@ -178,6 +171,7 @@
 
 			<Feature From="-6db Treble">
 				<Name>0db Treble</Name>
+				<Category>Physical</Category>
 				<Description>Still no Treble...</Description>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.75</Innovation>
@@ -189,6 +183,7 @@
 
 			<Feature From="0db Treble">
 				<Name>6db Treble</Name>
+				<Category>Physical</Category>
 				<Description>It's doable, but not great</Description>
 				<Research>1990</Research>
 				<DevTime>0.5</DevTime>
@@ -201,6 +196,7 @@
 
 			<Feature From="6db Treble">
 				<Name>12db Treble</Name>
+				<Category>Physical</Category>
 				<Description>Great Treble</Description>
 				<Research>2000</Research>
 				<DevTime>0.5</DevTime>
@@ -220,6 +216,7 @@
 
 			<Feature Forced="TRUE">
 				<Name>Buttons</Name>
+				<Category>Physical</Category>
 				<Description>A simple right/left buttons</Description>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.5</Innovation>
@@ -231,6 +228,7 @@
 
 			<Feature Forced="False">
 				<Name>Ball sensor</Name>
+				<Category>Physical</Category>
 				<Description>A ball in the mouse to track movement</Description>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.5</Innovation>
@@ -242,6 +240,7 @@
 
 			<Feature From="Ball sensor">
 				<Name>Trackball</Name>
+				<Category>Physical</Category>
 				<Description>Move your cursor through your thumb</Description>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.5</Innovation>
@@ -251,8 +250,9 @@
 				<SoftwareCategory Category="Mouses">1</SoftwareCategory>
 			</Feature>
 
-			<Feature From="Trackball">
+			<Feature From="Laser">
 				<Name>Optical</Name>
+				<Category>Physical</Category>
 				<Description>Includes mini CCD camera to track movement</Description>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.5</Innovation>
@@ -264,6 +264,7 @@
 
 			<Feature Forced="FALSE">
 				<Name>Wireless</Name>
+				<Category>Physical</Category>
 				<Description>Just not an annoying wire</Description>
 				<DevTime>0.5</DevTime>
 				<Innovation>1</Innovation>
@@ -273,33 +274,46 @@
 				<SoftwareCategory Category="Mouses">1</SoftwareCategory>
 			</Feature>
 
-			<Feature FROM="LED">
+			<Feature FROM="Trackball">
 				<Name>Laser</Name>
+				<Category>Physical</Category>
 				<Description>Not that annoying red light as sensor</Description>
 				<DevTime>0.5</DevTime>
 				<Innovation>1</Innovation>
 				<Usability>1.5</Usability>
 				<Stability>1</Stability>
 				<CodeArt>1</CodeArt>
-				<Dependency Software="Hardware">Optical</Dependency>
 				<SoftwareCategory Category="Mouses">1</SoftwareCategory>
 			</Feature>
 
-			<Feature Forced="FALSE">
+			<Feature Forced="False">
 				<Name>LED</Name>
-				<Description>Red LED as sensor</Description>
+				<Category>Physical</Category>
+				<Description>Some fancy LEDs on youre mouse</Description>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.75</Innovation>
 				<Usability>1</Usability>
 				<Stability>1</Stability>
 				<CodeArt>1</CodeArt>
-				<Dependency Software="Hardware">Optical</Dependency>
 				<SoftwareCategory Category="Mouses">1</SoftwareCategory>
 			</Feature>
 
 			<Feature Forced="FALSE">
 				<Name>Weights</Name>
+				<Category>Physical</Category>
 				<Description>Some weights to make your mouse heavier or lighter</Description>
+				<DevTime>0.2</DevTime>
+				<Innovation>1</Innovation>
+				<Usability>1</Usability>
+				<Stability>1</Stability>
+				<CodeArt>1</CodeArt>
+				<SoftwareCategory Category="Mouses">1</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="FALSE">
+				<Name>Hyper Fast scrolling</Name>
+				<Category>Physical</Category>
+				<Description>Lets youre mouse scroll fast without much effort</Description>
 				<DevTime>0.2</DevTime>
 				<Innovation>1</Innovation>
 				<Usability>1</Usability>
@@ -315,8 +329,11 @@
 
 
 
+
+
 			<Feature Forced="TRUE">
 				<Name>Basic switches</Name>
+				<Category>Physical</Category>
 				<Description>Bad, basic switches</Description>
 				<DevTime>2</DevTime>
 				<Innovation>0.5</Innovation>
@@ -328,6 +345,7 @@
 
 			<Feature From="Basic switches">
 				<Name>Laptop switches</Name>
+				<Category>Physical</Category>
 				<Description>Small switches for laptops.</Description>
 				<DevTime>0.7</DevTime>
 				<Innovation>0.7</Innovation>
@@ -339,6 +357,7 @@
 
 			<Feature From="Laptop switches">
 				<Name>Blue mechanical switches</Name>
+				<Category>Physical</Category>
 				<Description>Tactile feeling</Description>
 				<DevTime>1</DevTime>
 				<Innovation>1</Innovation>
@@ -350,6 +369,7 @@
 
 			<Feature From="Blue mechanical switches">
 				<Name>Red mechanical switches</Name>
+				<Category>Physical</Category>
 				<Description>Linear Feeling</Description>
 				<DevTime>1</DevTime>
 				<Innovation>1</Innovation>
@@ -361,6 +381,7 @@
 
 			<Feature From="Red mechanical switches">
 				<Name>Brown mechanical switches</Name>
+				<Category>Physical</Category>
 				<Description>Soft tactile feeling</Description>
 				<DevTime>1</DevTime>
 				<Innovation>1</Innovation>
@@ -372,6 +393,7 @@
 
 			<Feature From="Brown mechanical switches">
 				<Name>Black mechanical switches</Name>
+				<Category>Physical</Category>
 				<Description>Linear Feeling</Description>
 				<DevTime>1</DevTime>
 				<Innovation>1</Innovation>
@@ -382,7 +404,8 @@
 			</Feature>
 
 			<Feature Forced="False">
-				<Name>Extra Small</Name>
+				<Name>Small Switches</Name>
+				<Category>Physical</Category>
 				<Description>Smaller than a normal laptop switch</Description>
 				<DevTime>1</DevTime>
 				<Innovation>1</Innovation>
@@ -396,6 +419,7 @@
 
 			<Feature Forced="False">
 				<Name>Custom font on keys</Name>
+				<Category>Physical</Category>
 				<Description>Customers can place his favourite font on the keys</Description>
 				<DevTime>1</DevTime>
 				<Innovation>1</Innovation>
@@ -408,6 +432,7 @@
 
 			<Feature Forced="False">
 				<Name>Basic coloured lights</Name>
+				<Category>Physical</Category>
 				<Description>Just 1 color light.</Description>
 				<DevTime>1</DevTime>
 				<Innovation>1</Innovation>
@@ -420,6 +445,7 @@
 
 			<Feature Forced="False">
 				<Name>Advanced coloured lights</Name>
+				<Category>Physical</Category>
 				<Description>The 3 primary colors.</Description>
 				<DevTime>1</DevTime>
 				<Innovation>1</Innovation>
@@ -433,6 +459,7 @@
 
 			<Feature Forced="False">
 				<Name>All colours</Name>
+				<Category>Physical</Category>
 				<Description>All colors that exist</Description>
 				<DevTime>1</DevTime>
 				<Innovation>1</Innovation>
@@ -445,6 +472,71 @@
 			</Feature>
 
 
+
+
+
+
+			<Feature Forced="False">
+				<Name>Cardboard</Name>
+				<Category>Physical</Category>
+				<Description>Just a cardboard were you can put your mobile phone in</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0.2</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0.5</CodeArt>
+				<SoftwareCategory Category="VR">1</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="TRUE">
+				<Name>Head Tracking</Name>
+				<Category>Physical</Category>
+				<Description>Sensors track were you look</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0.2</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0.5</CodeArt>
+				<Dependency Software="Hardware">VR Headset</Dependency>
+				<SoftwareCategory Category="VR">1</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="False">
+				<Name>VR Headset</Name>
+				<Category>Physical</Category>
+				<Description>A normal VR headset</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0.2</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0.5</CodeArt>
+				<SoftwareCategory Category="VR">1</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="False">
+				<Name>Controllers</Name>
+				<Category>Physical</Category>
+				<Description>For input and tracking where your hands are</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0.2</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0.5</CodeArt>
+				<SoftwareCategory Category="VR">1</SoftwareCategory>
+			</Feature>
+
+			<Feature Forced="False">
+				<Name>Motion Tracking</Name>
+				<Category>Physical</Category>
+				<Description>Sensors keep track on you're movements. Great for gaming</Description>
+				<DevTime>0.5</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0.2</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0.5</CodeArt>
+				<Dependency Software="Hardware">VR Headset</Dependency>
+				<SoftwareCategory Category="VR">1</SoftwareCategory>
+			</Feature>
 
 		</Features>
 	</SoftwareType>

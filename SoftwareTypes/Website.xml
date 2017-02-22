@@ -19,8 +19,16 @@
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Video Player">
-			<Description>Like YouTube and Twitch. And... More dirty sites</Description>
+			<Description>Like YouTube and Twitch etc.</Description>
 			<NameGenerator>Website_VideoplayerGen</NameGenerator>
+			<Popularity>1</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Forum">
+			<Description>Discuss about everything on a forum.</Description>
+			<NameGenerator>Website_ForumGen</NameGenerator>
 			<Popularity>1</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
@@ -36,17 +44,20 @@
 	<Features>
 				<Feature Forced="TRUE">
 			<Name>HTML Based</Name>
+			<Category>System</Category>
 			<Description>Horrible looking site</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>0.5</Usability>
 			<Stability>0.2</Stability>
 			<CodeArt>0</CodeArt>
+			<Unlock>1990</Unlock>
 			<Dependency Software="Web Browser">Support HTML 5</Dependency>
-		</Feature>	
-		
+		</Feature>
+
 		<Feature Forced="FALSE">
 			<Name>C++</Name>
+			<Category>System</Category>
 			<Description>Makes the site looks better</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
@@ -55,9 +66,10 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Web Browser">Support C++</Dependency>
 		</Feature>
-		
+
 		<Feature Forced="FALSE">
 			<Name>JavaScript</Name>
+			<Category>System</Category>
 			<Description>Makes the site works better</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
@@ -67,20 +79,22 @@
 			<Dependency Software="Website">HTML Based</Dependency>
 			<Dependency Software="Web Browser">Support JavaScript</Dependency>
 		</Feature>
-		
+
 		<Feature Forced="FALSE">
 			<Name>WebShop</Name>
+			<Category>System</Category>
 			<Description>Sell special items</Description>
 			<DevTime>1.5</DevTime>
 			<Innovation>1.5</Innovation>
-			<Usability>1</Usability> 
+			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>2</CodeArt>
 			<Dependency Software="Website">JavaScript</Dependency>
 		</Feature>
-		
+
 		<Feature Forced="FALSE">
 			<Name>Quantum Search</Name>
+			<Category>System</Category>
 			<Description>Makes searching (almost) instant</Description>
 			<DevTime>3</DevTime>
 			<Innovation>4</Innovation>
@@ -92,9 +106,10 @@
 			<SoftwareCategory Category="Search Engine">1970</SoftwareCategory>
 			<Dependency Software="Server Hosting">Quantum</Dependency>
 		</Feature>
-		
+
 		<Feature From="Hide searches">
 			<Name>Save searches</Name>
+			<Category>System</Category>
 			<Description>Less privacy</Description>
 			<DevTime>1.5</DevTime>
 			<Innovation>0</Innovation>
@@ -104,10 +119,11 @@
 			<SoftwareCategory Category="Search Engine">1970</SoftwareCategory>
 			<Dependency Software="Server Hosting">1 GB</Dependency>
 		</Feature>
-		
-		
+
+
 		<Feature Forced="FALSE">
 			<Name>Hide searches</Name>
+			<Category>System</Category>
 			<Description>More privacy</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
@@ -116,9 +132,10 @@
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Search Engine">1970</SoftwareCategory>
 		</Feature>
-		
+
 		<Feature Forced="TRUE">
-			<Name>Accounts</Name>
+			<Name>Account</Name>
+			<Category>System</Category>
 			<Description>Customers can make own accountst\</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
@@ -127,9 +144,10 @@
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Social Media">1980</SoftwareCategory>
 		</Feature>
-		
+
 		<Feature Forced="FALSE">
-			<Name>Friends</Name>
+			<Name>Friend</Name>
+			<Category>System</Category>
 			<Description>Add friends to your account</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
@@ -138,21 +156,23 @@
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Social Media">1980</SoftwareCategory>
 		</Feature>
-		
+
 		<Feature Forced="FALSE">
 			<Name>Friend chats</Name>
+			<Category>System</Category>
 			<Description>Just chat with friends</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1.5</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Website">Friends</Dependency>
+			<Dependency Software="Website">Friend</Dependency>
 			<SoftwareCategory Category="Social Media">1980</SoftwareCategory>
 		</Feature>
-		
+
 		<Feature Forced="FALSE">
 			<Name>Public chat</Name>
+			<Category>System</Category>
 			<Description>Chat with every one who is using your website</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1.5</Innovation>
@@ -162,9 +182,10 @@
 			<Dependency Software="Website">Friend chats</Dependency>
 			<SoftwareCategory Category="Social Media">1980</SoftwareCategory>
 		</Feature>
-		
+
 		<Feature Forced="FALSE">
 			<Name>Emoticons</Name>
+			<Category>System</Category>
 			<Description>Add emoticon to your messages</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1.5</Innovation>
@@ -174,7 +195,164 @@
 			<Dependency Software="Website">Friend chats</Dependency>
 			<SoftwareCategory Category="Social Media">1980</SoftwareCategory>
 		</Feature>
-		
-		
+
+
+
+
+
+
+		<Feature Forced="TRUE">
+			<Name>Topics</Name>
+			<Category>System</Category>
+			<Description>Topics to discuss about</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Forum">1980</SoftwareCategory>
+		</Feature>
+
+		<Feature Forced="TRUE">
+			<Name>Posts</Name>
+			<Category>System</Category>
+			<Description>People can post basic text</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Website">Topics</Dependency>
+			<SoftwareCategory Category="Forum">1980</SoftwareCategory>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Supports HTML</Name>
+			<Category>System</Category>
+			<Description>Let users use HTML in their posts</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Website">Posts</Dependency>> 
+			<SoftwareCategory Category="Forum">1980</SoftwareCategory>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Supports BBCode</Name>
+			<Category>System</Category>
+			<Description>Let users use BBcodes in their posts</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1.5</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Website">Posts</Dependency>>
+			<SoftwareCategory Category="Forum">1980</SoftwareCategory>
+		</Feature>
+
+		<Feature Forced="TRUE">
+			<Name>Accounts</Name>
+			<Category>System</Category>
+			<Description>Every user need an account to post</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1.5</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Forum">1980</SoftwareCategory>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Profiles</Name>
+			<Category>System</Category>
+			<Description>Every account has a customable profile</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1.5</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Website">Accounts</Dependency>
+			<SoftwareCategory Category="Forum">1980</SoftwareCategory>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Avatars</Name>
+			<Category>System</Category>
+			<Description>Just a avatar for you're profile</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>2</CodeArt>
+			<Dependency Software="Website">Profiles</Dependency>
+			<SoftwareCategory Category="Forum">1980</SoftwareCategory>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Private messages</Name>
+			<Category>System</Category>
+			<Description>Send messages private to other users</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1.5</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Website">Profiles</Dependency>
+			<SoftwareCategory Category="Forum">1980</SoftwareCategory>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Support files</Name>
+			<Category>System</Category>
+			<Description>Support for example .jpg .gif</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1.5</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Website">Topics</Dependency>
+			<SoftwareCategory Category="Forum">1980</SoftwareCategory>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Preview</Name>
+			<Category>System</Category>
+			<Description>Show user how his post going to look</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Website">Topics</Dependency>
+			<SoftwareCategory Category="Forum">1980</SoftwareCategory>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Report</Name>
+			<Category>System</Category>
+			<Description>Users can report other user/post to a moderator</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>1.5</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Website">Accounts</Dependency>
+			<SoftwareCategory Category="Forum">1980</SoftwareCategory>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>WYSIWYG</Name>
+			<Category>System</Category>
+			<Description>What you see is what you get</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>1.5</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Forum">1980</SoftwareCategory>
+		</Feature>
+
 	</Features>
 </SoftwareType>
