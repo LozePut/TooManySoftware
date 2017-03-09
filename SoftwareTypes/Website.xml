@@ -5,7 +5,7 @@
 		<Category Name="Search Engine">
 			<NameGenerator>Website_SearchengineGen</NameGenerator>
 			<Description></Description>
-			<Popularity>1</Popularity>
+			<Popularity>0.8</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
@@ -13,7 +13,7 @@
 		<Category Name="Social Media">
 			<NameGenerator>Website_SocialmediaGen</NameGenerator>
 			<Description></Description>
-			<Popularity>1</Popularity>
+			<Popularity>0.8</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
@@ -21,7 +21,7 @@
 		<Category Name="Video Player">
 			<Description>Like YouTube and Twitch etc.</Description>
 			<NameGenerator>Website_VideoplayerGen</NameGenerator>
-			<Popularity>1</Popularity>
+			<Popularity>0.8</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
@@ -29,14 +29,14 @@
 		<Category Name="Forum">
 			<Description>Discuss about everything on a forum.</Description>
 			<NameGenerator>Website_ForumGen</NameGenerator>
-			<Popularity>1</Popularity>
+			<Popularity>0.8</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 	</Categories>
 	<Random>0.1</Random>
-	<Popularity>1</Popularity>
+	<Popularity>0.8</Popularity>
 	<OSSpecific>FALSE</OSSpecific>
 	<OneClient>FALSE</OneClient>
 	<InHouse>TRUE</InHouse>

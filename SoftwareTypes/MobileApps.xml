@@ -5,7 +5,7 @@
 		<Category Name="Business">
 			<Description>Make profit every where you are!</Description>
 				<NameGenerator>MobileApps_Business</NameGenerator>
-			<Popularity>1</Popularity>
+			<Popularity>0.7</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>0.75</TimeScale>
 			<Iterative>1</Iterative>
@@ -13,7 +13,7 @@
 		<Category Name="Gaming">
 			<Description>All your games in your pocket!</Description>
 			<NameGenerator>MobileApps_Gaming</NameGenerator>
-			<Popularity>1</Popularity>
+			<Popularity>0.7</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>0.75</TimeScale>
 			<Iterative>1</Iterative>
@@ -21,7 +21,7 @@
 	</Categories>
 	<Unlock>2000</Unlock>
 	<Random>0.1</Random>
-	<Popularity>2</Popularity>
+	<Popularity>0.8</Popularity>
 	<OSSpecific>TRUE</OSSpecific>
 	<OneClient>FALSE</OneClient>
 	<InHouse>FALSE</InHouse>

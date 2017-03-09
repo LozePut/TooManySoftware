@@ -4,7 +4,7 @@
 		<Categories>
 		<Category Name="Shirts">
 			<Description></Description>
-			<Popularity>0.3</Popularity>
+			<Popularity>0.4</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
@@ -12,7 +12,7 @@
 	</Categories>
 
 	<Random>0.1</Random>
-	<Popularity>0.9</Popularity>
+	<Popularity>0.4</Popularity>
 	<OSSpecific>FALSE</OSSpecific>
 	<OneClient>FALSE</OneClient>
 	<InHouse>FALSE</InHouse>
