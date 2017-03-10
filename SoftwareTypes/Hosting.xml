@@ -5,14 +5,14 @@
 		<Categories>
 		<Category Name="Default">
 			<Description></Description>
-			<Popularity>1</Popularity>
+			<Popularity>0.7</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 	</Categories>
 	<Random>0.1</Random>
-	<Popularity>1</Popularity>
+	<Popularity>0.7</Popularity>
 	<OSSpecific>FALSE</OSSpecific>
 	<OneClient>FALSE</OneClient>
 	<InHouse>TRUE</InHouse>

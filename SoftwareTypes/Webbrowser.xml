@@ -6,7 +6,7 @@
 			<Description></Description>
 			<Popularity>1</Popularity>
 			<Retention>0.9</Retention>
-			<TimeScale>1</TimeScale>
+			<TimeScale>5</TimeScale>
 			<Iterative>1</Iterative>
 			<Unlock>1990</Unlock>
 		</Category>
@@ -14,7 +14,8 @@
 
 	<Random>0.1</Random>
 	<Popularity>1</Popularity>
-	<OSSpecific>FALSE</OSSpecific>
+	<OSSpecific>TRUE</OSSpecific>
+	<OSLimit>Computer</OSLimit>
 	<OneClient>FALSE</OneClient>
 	<InHouse>FALSE</InHouse>
 	<Category>Default</Category>
