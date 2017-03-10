@@ -10,3 +10,5 @@ CyberVideo
 PowerPlayer
 MediaPlayer
 MediaVideo
+VideoPlayer
+VideoTube

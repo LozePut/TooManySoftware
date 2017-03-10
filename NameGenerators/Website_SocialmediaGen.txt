@@ -1,14 +1,19 @@
 -start(base)
--base(base)
-HeadBook
-SocialPlanet
-DailySocial
-Instasnap
-Snappic
-LinkedOut
-MyFriends
-MyWorld
-FriendsDNA
-SocialDNA
-GamerPlanet
-iSocial
+-base(base2,end,stop)
+Social
+Daily
+Insta
+Snap
+My
+Friends
+Social
+Gamer
+Lifestyle
+-base2(end,stop)
+, Book
+, Planet
+, DNA
+, World
+, Friends
+,
+-end(stop)

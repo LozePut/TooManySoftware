@@ -9,6 +9,7 @@
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
+			<NameGenerator>ToolBox_WebCamGen</NameGenerator>
 		</Category>
 
 		<Category Name="Screen recorder">
@@ -18,6 +19,7 @@
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
+			<NameGenerator>ToolBox_ScreenRecorderGen</NameGenerator>
 		</Category>
 		<Category Name="VR">
 			<Unlock>2013</Unlock>
@@ -26,10 +28,9 @@
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
+			<NameGenerator>ToolBox_VRGen</NameGenerator>
 		</Category>
 	</Categories>
-
-
 
 
 
