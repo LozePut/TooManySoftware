@@ -5,8 +5,8 @@
 		<Category Name="Audio">
 			<Description>Headsets and speakers etc</Description>
 			<Popularity>0.9</Popularity>
-			<Retention>0.9</Retention>
-			<TimeScale>1</TimeScale>
+			<Retention>3</Retention>
+			<TimeScale>10</TimeScale>
 			<Iterative>1</Iterative>
 			<NameGenerator>Hardware_AudioGen</NameGenerator>
 		</Category>
@@ -22,8 +22,8 @@
 		<Category Name="Keyboard">
 			<Description>Just a keyboard</Description>
 			<Popularity>0.9</Popularity>
-			<Retention>0.9</Retention>
-			<TimeScale>1</TimeScale>
+			<Retention>3</Retention>
+			<TimeScale>10</TimeScale>
 			<Iterative>1</Iterative>
 			<NameGenerator>Hardware_KeyboardGen</NameGenerator>
 		</Category>
@@ -31,8 +31,8 @@
 			<Description>Virtual Reality</Description>
 			<Unlock>2014</Unlock>
 			<Popularity>0.9</Popularity>
-			<Retention>0.9</Retention>
-			<TimeScale>1</TimeScale>
+			<Retention>3</Retention>
+			<TimeScale>10</TimeScale>
 			<Iterative>1</Iterative>
 			<NameGenerator>Hardware_VRGen</NameGenerator>
 		</Category>

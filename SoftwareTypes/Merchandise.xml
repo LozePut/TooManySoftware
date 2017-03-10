@@ -22,7 +22,7 @@
 
 		<Feature Forced="TRUE">
 			<Name>Cheap material</Name>
-			<Category>Material</Category>
+			<Category>Physical</Category>
 			<Description>Cheap material for cheap shirts.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -82,7 +82,7 @@
 
 		<Feature From="Cheap material">
 			<Name>Better Material</Name>
-			<Category>Material</Category>
+			<Category>Physical</Category>
 			<Description>Make your material a lot better</Description>
 			<DevTime>2.5</DevTime>
 			<Innovation>1</Innovation>
