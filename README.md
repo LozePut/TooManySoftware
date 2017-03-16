@@ -17,9 +17,40 @@ Press Non steam download button.
 Open TooManySoftware.zip > Put  ToomanySofware-master inside youre Mod folder 
 that you could find here: C:\Program Files (x86)\Steam\steamapps\common\Software Inc\Mods
 
-**Currently:**
-- 7 Software types
-- 4 Scenario
+
+**Currently:**    
+**8 Software types**    
+* Mobile Apps
+  * Business
+  * Gaming
+* Website
+    * Search engine
+    * Social media
+    * Video player
+    * Forums
+* Webbrowser
+* Hacks
+    * Botnet
+    * Hacktool
+* Toolbox
+  * Webcam software
+  * Screen recorder
+  * VR
+* Hosting
+* Merchandise
+* Hardware
+     * Audio
+     * Mouse
+     * Keyboard
+     * VR
+
+**4 Scenario's**   
+     - Sandbox    
+     - Extreme    
+     - More years   
+     - Dev mode   
+     
+
 
 **TODO:**
 More software ( And hardware)
