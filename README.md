@@ -44,11 +44,11 @@ that you could find here: C:\Program Files (x86)\Steam\steamapps\common\Software
      * Keyboard
      * VR
 
-**4 Scenario's**   
-     - Sandbox    
-     - Extreme    
-     - More years   
-     - Dev mode   
+**4 Scenario's**  
+* Sandbox    
+* Extreme    
+* More years   
+* Dev mode   
      
 
 
