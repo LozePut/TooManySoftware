@@ -1,4 +1,5 @@
 # TooManySoftware
+TooManySoftware is a mod for Software Inc.
 TooManySoftware adds more software and scenarios to your company!
 
 
