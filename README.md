@@ -28,4 +28,4 @@ Add scenarios
 
 
 # Translations
-[French](http://steamcommunity.com/sharedfiles/filedetails/?id=672412435)Thanks to[Maidenhead](http://steamcommunity.com/profiles/76561198020209071/) [Outdated version]
+[French](http://steamcommunity.com/sharedfiles/filedetails/?id=672412435) Thanks to [Maidenhead](http://steamcommunity.com/profiles/76561198020209071/) [Outdated version]
