@@ -71,7 +71,67 @@
 			<Name>Altitude sensor</Name>
 			<Category>Robot</Category>
 			<Description>Great for flying drones</Description>
-			<DevTime>8</DevTime>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Sensor</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Proximity sensor</Name>
+			<Category>Robot</Category>
+			<Description>Measure how close the robot is to another object</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Sensor</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Light sensor</Name>
+			<Category>Robot</Category>
+			<Description>Measure amount of light</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Sensor</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Motion sensor</Name>
+			<Category>Robot</Category>
+			<Description>Looks for movements</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Sensor</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Temperature sensor</Name>
+			<Category>Robot</Category>
+			<Description>Measure how hot or cold it is</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Sensor</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Accelerometer sensor</Name>
+			<Category>Robot</Category>
+			<Description>Measure fast your robot is going</Description>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
