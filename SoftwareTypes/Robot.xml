@@ -6,7 +6,7 @@
 				<Description></Description>
 				<Popularity>1</Popularity>
 				<Retention>0.9</Retention>
-				<TimeScale>5</TimeScale>
+				<TimeScale>1</TimeScale>
 				<Iterative>1</Iterative>
 				<Unlock>2015</Unlock>
 			</Category>
@@ -33,7 +33,7 @@
 			<CodeArt>1</CodeArt>
 		</Feature>
 
-		<Feature Forced="TRUE">
+		<Feature Forced="FALSE">
 			<Name>Camera</Name>
 			<Category>Robot</Category>
 			<Description>Robots can look</Description>
@@ -42,6 +42,7 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Sensor</Dependency>
 		</Feature>
 
 		<Feature Forced="FALSE">
@@ -62,6 +63,18 @@
 			<DevTime>5</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Movement</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Propeller</Name>
+			<Category>Robot</Category>
+			<Description>You robot is able to fly</Description>
+			<DevTime>8</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Robots">Movement</Dependency>
@@ -143,13 +156,12 @@
 			<Name>AI</Name>
 			<Category>Robot</Category>
 			<Description></Description>
-			<Research>2020</Research>
+			<Unlock>2020</Unlock>
 			<DevTime>20</DevTime>
 			<Innovation>15</Innovation>
 			<Usability>15</Usability>
 			<Stability>15</Stability>
 			<CodeArt>15</CodeArt>
-			<Dependency Software="Robots">Sensor</Dependency>
 		</Feature>
 
 
