@@ -1,0 +1,175 @@
+<SoftwareType>
+	<Name>Robots</Name>
+	<Description></Description>
+		<Categories>
+			<Category Name="Default">
+				<Description></Description>
+				<Popularity>1</Popularity>
+				<Retention>0.9</Retention>
+				<TimeScale>1</TimeScale>
+				<Iterative>1</Iterative>
+				<Unlock>2015</Unlock>
+			</Category>
+		</Categories>
+
+
+
+	<Random>0.1</Random>
+	<Popularity>0.5</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Category>Default</Category>
+	<NameGenerator>ToolBoxGen</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Movement</Name>
+			<Category>Robot</Category>
+			<Description>Robots can move</Description>
+			<DevTime>15</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Camera</Name>
+			<Category>Robot</Category>
+			<Description>Robots can look</Description>
+			<DevTime>15</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Sensor</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Sensor</Name>
+			<Category>Robot</Category>
+			<Description>Robots can measure</Description>
+			<DevTime>10</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Wheels</Name>
+			<Category>Robot</Category>
+			<Description>Round object so robots can drive</Description>
+			<DevTime>5</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Movement</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Propeller</Name>
+			<Category>Robot</Category>
+			<Description>You robot is able to fly</Description>
+			<DevTime>8</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Movement</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Altitude sensor</Name>
+			<Category>Robot</Category>
+			<Description>Great for flying drones</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Sensor</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Proximity sensor</Name>
+			<Category>Robot</Category>
+			<Description>Measure how close the robot is to another object</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Sensor</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Light sensor</Name>
+			<Category>Robot</Category>
+			<Description>Measure amount of light</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Sensor</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Motion sensor</Name>
+			<Category>Robot</Category>
+			<Description>Looks for movements</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Sensor</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Temperature sensor</Name>
+			<Category>Robot</Category>
+			<Description>Measure how hot or cold it is</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Sensor</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Accelerometer sensor</Name>
+			<Category>Robot</Category>
+			<Description>Measure fast your robot is going</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Robots">Sensor</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>AI</Name>
+			<Category>Robot</Category>
+			<Description></Description>
+			<Unlock>2020</Unlock>
+			<DevTime>20</DevTime>
+			<Innovation>15</Innovation>
+			<Usability>15</Usability>
+			<Stability>15</Stability>
+			<CodeArt>15</CodeArt>
+		</Feature>
+
+
+
+
+
+
+
+
+	</Features>
+</SoftwareType>

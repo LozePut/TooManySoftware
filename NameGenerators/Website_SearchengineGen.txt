@@ -10,3 +10,5 @@ CloudScanner
 WebScanner
 Search
 PlanetSearch
+WorldSearch
+StarSearch

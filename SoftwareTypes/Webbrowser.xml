@@ -61,7 +61,7 @@
 			<Name>Tabs</Name>
 			<Category>System</Category>
 			<Description>Adds tabs for multitasking</Description>
-			<DevTime>0.25</DevTime>
+			<DevTime>0.5</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1.5</Usability>
 			<Stability>1</Stability>

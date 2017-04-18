@@ -1,6 +1,6 @@
 <SoftwareType>
 	<Name>Mobile Apps</Name>
-	<Description>Mobile app.</Description>
+	<Description>Mobile app</Description>
 		<Categories>
 		<Category Name="Business">
 			<Description>Make profit every where you are!</Description>
@@ -137,7 +137,7 @@
 		</Feature>
 
 
-						<Feature Forced="FALSE">
+		<Feature Forced="FALSE">
 			<Name>Support Rotation</Name>
 			<Category>System</Category>
 			<Description>Rotate your phone to interact</Description>

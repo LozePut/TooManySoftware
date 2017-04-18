@@ -38,7 +38,7 @@
 			<Server>0.0000001</Server>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
-				<Feature Forced="FALSE">
+		<Feature Forced="FALSE">
 			<Name>5 GB</Name>
 			<Category>System</Category>
 			<Description>Give all users +5 GB.</Description>
@@ -51,7 +51,7 @@
 			<Server>0.005</Server>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
-				<Feature Forced="FALSE">
+		<Feature Forced="FALSE">
 			<Name>10 GB</Name>
 			<Category>System</Category>
 			<Description>Give all users +10 GB.</Description>
@@ -65,7 +65,7 @@
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
 
-				<Feature Forced="FALSE">
+		<Feature Forced="FALSE">
 			<Name>1 TB</Name>
 			<Category>System</Category>
 			<Description>Give all users +1 TB. WARNING: YOU NEED A LARGE SERVER FARM!</Description>
@@ -79,7 +79,7 @@
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
 
-					<Feature Forced="FALSE">
+		<Feature Forced="FALSE">
 			<Name>Floods</Name>
 			<Category>System</Category>
 			<Description>send so much traffic that it overwhelms the bandwidth</Description>
@@ -92,7 +92,7 @@
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
 
-					<Feature Forced="FALSE">
+		<Feature Forced="FALSE">
 			<Name>TCP</Name>
 			<Category>System</Category>
 			<Description>focuses on actual web servers, firewalls and load balancers to disrupt connections, resulting in exhausting their finite number of concurrent connections the device can support.</Description>
@@ -119,7 +119,7 @@
 		</Feature>
 
 
-						<Feature Forced="FALSE">
+		<Feature Forced="FALSE">
 			<Name>Trojan</Name>
 			<Category>System</Category>
 			<Description>Save keyboard input. So you earn passwords</Description>

@@ -5,3 +5,6 @@ ProForums
 vBoards
 ForumWiz
 LegitBoards
+BoardsWiz
+ProWiz
+ProBoards
