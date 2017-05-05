@@ -20,7 +20,7 @@
 	<OneClient>FALSE</OneClient>
 	<InHouse>FALSE</InHouse>
 	<Category>Default</Category>
-	<NameGenerator>ToolBoxGen</NameGenerator>
+	<NameGenerator>RobotGen</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Movement</Name>
@@ -49,7 +49,7 @@
 			<Name>Sensor</Name>
 			<Category>Robot</Category>
 			<Description>Robots can measure</Description>
-			<DevTime>10</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
