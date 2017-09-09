@@ -4,8 +4,8 @@
 		<Categories>
 		<Category Name="Audio">
 			<Description>Headsets and speakers etc</Description>
-			<Popularity>0.9</Popularity>
-			<Retention>3</Retention>
+			<Popularity>0.4</Popularity>
+			<Retention>0.9</Retention>
 			<TimeScale>10</TimeScale>
 			<Iterative>1</Iterative>
 			<NameGenerator>Hardware_AudioGen</NameGenerator>
@@ -13,7 +13,7 @@
 
 		<Category Name="Mouses">
 			<Description>Just a mouse</Description>
-			<Popularity>0.9</Popularity>
+			<Popularity>0.5</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
@@ -21,8 +21,8 @@
 		</Category>
 		<Category Name="Keyboard">
 			<Description>Just a keyboard</Description>
-			<Popularity>0.9</Popularity>
-			<Retention>3</Retention>
+			<Popularity>0.5</Popularity>
+			<Retention>0.9</Retention>
 			<TimeScale>10</TimeScale>
 			<Iterative>1</Iterative>
 			<NameGenerator>Hardware_KeyboardGen</NameGenerator>
@@ -30,15 +30,15 @@
 		<Category Name="VR">
 			<Description>Virtual Reality</Description>
 			<Unlock>2014</Unlock>
-			<Popularity>0.9</Popularity>
-			<Retention>3</Retention>
+			<Popularity>0.5</Popularity>
+			<Retention>0.9</Retention>
 			<TimeScale>10</TimeScale>
 			<Iterative>1</Iterative>
 			<NameGenerator>Hardware_VRGen</NameGenerator>
 		</Category>
 	</Categories>
 	<Random>0.1</Random>
-	<Popularity>0.9</Popularity>
+	<Popularity>0.6</Popularity>
 	<OSSpecific>FALSE</OSSpecific>
 	<OneClient>FALSE</OneClient>
 	<InHouse>TRUE</InHouse>

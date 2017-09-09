@@ -5,7 +5,7 @@
 		<Category Name="Search Engine">
 			<NameGenerator>Website_SearchengineGen</NameGenerator>
 			<Description></Description>
-			<Popularity>0.8</Popularity>
+			<Popularity>0.9</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
@@ -29,7 +29,7 @@
 		<Category Name="Forum">
 			<Description>Discuss about everything on a forum.</Description>
 			<NameGenerator>Website_ForumGen</NameGenerator>
-			<Popularity>0.8</Popularity>
+			<Popularity>0.7</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>

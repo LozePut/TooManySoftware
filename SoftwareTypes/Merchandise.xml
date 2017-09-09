@@ -5,7 +5,7 @@
 		<Category Name="Shirts">
 			<Description></Description>
 			<Popularity>0.4</Popularity>
-			<Retention>0.9</Retention>
+			<Retention>0.3</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>

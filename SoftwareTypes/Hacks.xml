@@ -6,14 +6,14 @@
 		<Category Name="Botnet">
 			<Description>A big net of PC for DDOS</Description>
 			<Popularity>0.4</Popularity>
-			<Retention>0.7</Retention>
+			<Retention>0.5</Retention>
 			<TimeScale>3</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Hack tool">
 			<Description>Trojan. Malware etc</Description>
 			<Popularity>0.4</Popularity>
-			<Retention>0.7</Retention>
+			<Retention>0.5</Retention>
 			<TimeScale>3</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
