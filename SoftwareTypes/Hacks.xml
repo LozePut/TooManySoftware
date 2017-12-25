@@ -5,20 +5,20 @@
 		<Categories>
 		<Category Name="Botnet">
 			<Description>A big net of PC for DDOS</Description>
-			<Popularity>0.4</Popularity>
-			<Retention>0.5</Retention>
+			<Popularity>0.1</Popularity>
+			<Retention>0.3</Retention>
 			<TimeScale>3</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Hack tool">
 			<Description>Trojan. Malware etc</Description>
-			<Popularity>0.4</Popularity>
-			<Retention>0.5</Retention>
+			<Popularity>0.2</Popularity>
+			<Retention>0.3</Retention>
 			<TimeScale>3</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 	</Categories>
-	<Random>0.1 </Random>
+	<Random>0.6</Random>
 	<Popularity>0.4</Popularity>
 	<Category>Botnet</Category>
 	<OSSpecific>FALSE</OSSpecific>
@@ -34,7 +34,7 @@
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>3</CodeArt>
+			<CodeArt>1</CodeArt>
 			<Server>0.0000001</Server>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
@@ -47,7 +47,7 @@
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>3</CodeArt>
+			<CodeArt>1</CodeArt>
 			<Server>0.005</Server>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
@@ -59,8 +59,8 @@
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
-			<Stability>1</Stability>
-			<CodeArt>3</CodeArt>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
 			<Server>0.01</Server>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
@@ -74,7 +74,7 @@
 			<Innovation>2</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
-			<CodeArt>3</CodeArt>
+			<CodeArt>1</CodeArt>
 			<Server>0.1</Server>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
@@ -87,7 +87,7 @@
 			<Innovation>0</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
-			<CodeArt>4</CodeArt>
+			<CodeArt>1</CodeArt>
 			<Dependency Software="Hacks">1 TB</Dependency>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
@@ -100,7 +100,7 @@
 			<Innovation>0</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
-			<CodeArt>4</CodeArt>
+			<CodeArt>1</CodeArt>
 			<Dependency Software="Hacks">1 TB</Dependency>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
@@ -113,7 +113,7 @@
 			<Innovation>2</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
-			<CodeArt>4</CodeArt>
+			<CodeArt>1</CodeArt>
 			<Dependency Software="Hacks">10 GB</Dependency>
 			<SoftwareCategory Category="Botnet">1990</SoftwareCategory>
 		</Feature>
@@ -124,10 +124,10 @@
 			<Category>System</Category>
 			<Description>Save keyboard input. So you earn passwords</Description>
 			<DevTime>3</DevTime>
-			<Innovation>2</Innovation>
-			<Usability>3</Usability>
-			<Stability>1</Stability>
-			<CodeArt>3</CodeArt>
+			<Innovation>1.5</Innovation>
+			<Usability>1.5</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Hack tool">1990</SoftwareCategory>
 		</Feature>
 
@@ -138,9 +138,9 @@
 			<Description>Try all possible passwords</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
-			<Usability>3</Usability>
-			<Stability>1</Stability>
-			<CodeArt>3</CodeArt>
+			<Usability>1</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Hack tool">1990</SoftwareCategory>
 		</Feature>
 
@@ -151,8 +151,8 @@
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>1</Stability>
-			<CodeArt>3</CodeArt>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Hack tool">1990</SoftwareCategory>
 		</Feature>
 
@@ -163,7 +163,7 @@
 			<DevTime>1.5</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>1</Stability>
+			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Hacks">Spammer</Dependency>
 			<SoftwareCategory Category="Hack tool">1990</SoftwareCategory>

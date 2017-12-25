@@ -5,38 +5,38 @@
 		<Category Name="Search Engine">
 			<NameGenerator>Website_SearchengineGen</NameGenerator>
 			<Description></Description>
-			<Popularity>0.9</Popularity>
-			<Retention>0.9</Retention>
+			<Popularity>0.7</Popularity>
+			<Retention>0.5</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Social Media">
 			<NameGenerator>Website_SocialmediaGen</NameGenerator>
 			<Description></Description>
-			<Popularity>0.8</Popularity>
-			<Retention>0.9</Retention>
+			<Popularity>0.6</Popularity>
+			<Retention>0.4</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Video Player">
 			<Description>Like YouTube and Twitch etc.</Description>
 			<NameGenerator>Website_VideoplayerGen</NameGenerator>
-			<Popularity>0.8</Popularity>
-			<Retention>0.9</Retention>
+			<Popularity>0.6</Popularity>
+			<Retention>0.4</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 		<Category Name="Forum">
 			<Description>Discuss about everything on a forum.</Description>
 			<NameGenerator>Website_ForumGen</NameGenerator>
-			<Popularity>0.7</Popularity>
-			<Retention>0.9</Retention>
+			<Popularity>0.5</Popularity>
+			<Retention>0.4</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 	</Categories>
-	<Random>0.1</Random>
-	<Popularity>0.8</Popularity>
+	<Random>0.8</Random>
+	<Popularity>0.6</Popularity>
 	<OSSpecific>FALSE</OSSpecific>
 	<OneClient>FALSE</OneClient>
 	<InHouse>TRUE</InHouse>

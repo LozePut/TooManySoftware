@@ -5,8 +5,8 @@
 		<Category Name="WebCam Software">
 			<Unlock>1990</Unlock>
 			<Description></Description>
-			<Popularity>0.6</Popularity>
-			<Retention>0.9</Retention>
+			<Popularity>0.4</Popularity>
+			<Retention>0.6</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 			<NameGenerator>ToolBox_WebCamGen</NameGenerator>
@@ -15,8 +15,8 @@
 		<Category Name="Screen recorder">
 			<Unlock>1995</Unlock>
 			<Description>Record your screen and publish videos</Description>
-			<Popularity>0.6</Popularity>
-			<Retention>0.9</Retention>
+			<Popularity>0.4</Popularity>
+			<Retention>0.6</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 			<NameGenerator>ToolBox_ScreenRecorderGen</NameGenerator>
@@ -24,7 +24,7 @@
 		<Category Name="VR">
 			<Unlock>2013</Unlock>
 			<Description>Virtual Reality</Description>
-			<Popularity>0.8</Popularity>
+			<Popularity>0.7</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
@@ -34,7 +34,7 @@
 
 
 
-	<Random>0.1</Random>
+	<Random>0.4</Random>
 	<Popularity>0.5</Popularity>
 	<OSSpecific>TRUE</OSSpecific>
 	<OneClient>FALSE</OneClient>

@@ -5,40 +5,40 @@
 		<Category Name="Audio">
 			<Description>Headsets and speakers etc</Description>
 			<Popularity>0.4</Popularity>
-			<Retention>0.9</Retention>
-			<TimeScale>10</TimeScale>
+			<Retention>0.4</Retention>
+			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 			<NameGenerator>Hardware_AudioGen</NameGenerator>
 		</Category>
 
 		<Category Name="Mouses">
 			<Description>Just a mouse</Description>
-			<Popularity>0.5</Popularity>
-			<Retention>0.9</Retention>
+			<Popularity>0.4</Popularity>
+			<Retention>0.4</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 			<NameGenerator>Hardware_MouseGen</NameGenerator>
 		</Category>
 		<Category Name="Keyboard">
 			<Description>Just a keyboard</Description>
-			<Popularity>0.5</Popularity>
-			<Retention>0.9</Retention>
-			<TimeScale>10</TimeScale>
+			<Popularity>0.4</Popularity>
+			<Retention>0.4</Retention>
+			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 			<NameGenerator>Hardware_KeyboardGen</NameGenerator>
 		</Category>
 		<Category Name="VR">
 			<Description>Virtual Reality</Description>
-			<Unlock>2014</Unlock>
-			<Popularity>0.5</Popularity>
-			<Retention>0.9</Retention>
-			<TimeScale>10</TimeScale>
+			<Unlock>2012</Unlock>
+			<Popularity>0.4</Popularity>
+			<Retention>0.4</Retention>
+			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 			<NameGenerator>Hardware_VRGen</NameGenerator>
 		</Category>
 	</Categories>
-	<Random>0.1</Random>
-	<Popularity>0.6</Popularity>
+	<Random>0.5</Random>
+	<Popularity>0.5</Popularity>
 	<OSSpecific>FALSE</OSSpecific>
 	<OneClient>FALSE</OneClient>
 	<InHouse>TRUE</InHouse>
@@ -49,9 +49,9 @@
 				<Category>Physical</Category>
 				<Description>Just a basic speaker.</Description>
 				<DevTime>1</DevTime>
-				<Innovation>1</Innovation>
-				<Usability>1</Usability>
-				<Stability>1</Stability>
+				<Innovation>0.1</Innovation>
+				<Usability>0.3</Usability>
+				<Stability>0.7</Stability>
 				<CodeArt>0</CodeArt>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
@@ -61,9 +61,9 @@
 				<Category>Physical</Category>
 				<Description>Sound from 2 sides.</Description>
 				<DevTime>0.5</DevTime>
-				<Innovation>0.75</Innovation>
-				<Usability>0.75</Usability>
-				<Stability>0.75</Stability>
+				<Innovation>0.1</Innovation>
+				<Usability>0.2</Usability>
+				<Stability>0.6</Stability>
 				<CodeArt>0</CodeArt>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
@@ -76,7 +76,7 @@
 				<DevTime>0.5</DevTime>
 				<Innovation>0.1</Innovation>
 				<Usability>0.1</Usability>
-				<Stability>0.1</Stability>
+				<Stability>0.3</Stability>
 				<CodeArt>0</CodeArt>
 				<Dependency Software="Hardware">Stereo</Dependency>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
@@ -99,9 +99,9 @@
 				<Category>Physical</Category>
 				<Description>A little bit better.</Description>
 				<DevTime>0.5</DevTime>
-				<Innovation>0.75</Innovation>
-				<Usability>0.75</Usability>
-				<Stability>0.75</Stability>
+				<Innovation>0.5</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.5</Stability>
 				<CodeArt>0</CodeArt>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
@@ -109,11 +109,11 @@
 			<Feature From="-6db Bass">
 				<Name>0db Bass</Name>
 				<Category>Physical</Category>
-				<Description>Still no bass...</Description>
+				<Description>Still bad bass...</Description>
 				<DevTime>0.5</DevTime>
-				<Innovation>0.75</Innovation>
-				<Usability>0.75</Usability>
-				<Stability>0.75</Stability>
+				<Innovation>0.4</Innovation>
+				<Usability>0.4</Usability>
+				<Stability>0.7</Stability>
 				<CodeArt>0</CodeArt>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
@@ -126,7 +126,7 @@
 				<DevTime>0.5</DevTime>
 				<Innovation>0.1</Innovation>
 				<Usability>0.1</Usability>
-				<Stability>0.1</Stability>
+				<Stability>0.5</Stability>
 				<CodeArt>0</CodeArt>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
@@ -139,7 +139,7 @@
 				<DevTime>0.5</DevTime>
 				<Innovation>0.1</Innovation>
 				<Usability>0.1</Usability>
-				<Stability>0.1</Stability>
+				<Stability>0.5</Stability>
 				<CodeArt>0</CodeArt>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
@@ -151,7 +151,7 @@
 				<DevTime>0.5</DevTime>
 				<Innovation>0.5</Innovation>
 				<Usability>0</Usability>
-				<Stability>0</Stability>
+				<Stability>0.9</Stability>
 				<CodeArt>0</CodeArt>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
@@ -162,9 +162,9 @@
 				<Category>Physical</Category>
 				<Description>A little bit better.</Description>
 				<DevTime>0.5</DevTime>
-				<Innovation>0.75</Innovation>
-				<Usability>0.75</Usability>
-				<Stability>0.75</Stability>
+				<Innovation>0.5</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.5</Stability>
 				<CodeArt>0</CodeArt>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
@@ -174,9 +174,9 @@
 				<Category>Physical</Category>
 				<Description>Still no Treble...</Description>
 				<DevTime>0.5</DevTime>
-				<Innovation>0.75</Innovation>
-				<Usability>0.75</Usability>
-				<Stability>0.75</Stability>
+				<Innovation>0.5</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.5</Stability>
 				<CodeArt>0</CodeArt>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
@@ -202,7 +202,7 @@
 				<DevTime>0.5</DevTime>
 				<Innovation>0.1</Innovation>
 				<Usability>0.1</Usability>
-				<Stability>0.1</Stability>
+				<Stability>0.5</Stability>
 				<CodeArt>0</CodeArt>
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
@@ -336,9 +336,9 @@
 				<Category>Physical</Category>
 				<Description>Bad, basic switches</Description>
 				<DevTime>2</DevTime>
-				<Innovation>0.5</Innovation>
-				<Usability>0.5</Usability>
-				<Stability>0.5</Stability>
+				<Innovation>0.3</Innovation>
+				<Usability>0.3</Usability>
+				<Stability>0.8</Stability>
 				<CodeArt>0.5</CodeArt>
 				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
 			</Feature>
@@ -348,10 +348,10 @@
 				<Category>Physical</Category>
 				<Description>Small switches for laptops.</Description>
 				<DevTime>0.7</DevTime>
-				<Innovation>0.7</Innovation>
-				<Usability>0.7</Usability>
-				<Stability>0.7</Stability>
-				<CodeArt>0.7</CodeArt>
+				<Innovation>0.3</Innovation>
+				<Usability>0.3</Usability>
+				<Stability>0.8</Stability>
+				<CodeArt>0.5</CodeArt>
 				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
 			</Feature>
 
@@ -360,9 +360,9 @@
 				<Category>Physical</Category>
 				<Description>Tactile feeling</Description>
 				<DevTime>1</DevTime>
-				<Innovation>1</Innovation>
-				<Usability>1</Usability>
-				<Stability>1</Stability>
+				<Innovation>0.3</Innovation>
+				<Usability>0.3</Usability>
+				<Stability>0.8</Stability>
 				<CodeArt>1</CodeArt>
 				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
 			</Feature>
@@ -371,10 +371,10 @@
 				<Name>Red mechanical switches</Name>
 				<Category>Physical</Category>
 				<Description>Linear Feeling</Description>
-				<DevTime>1</DevTime>
-				<Innovation>1</Innovation>
-				<Usability>1</Usability>
-				<Stability>1</Stability>
+				<DevTime>2</DevTime>
+				<Innovation>0.3</Innovation>
+				<Usability>0.3</Usability>
+				<Stability>0.4</Stability>
 				<CodeArt>1</CodeArt>
 				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
 			</Feature>
@@ -383,10 +383,10 @@
 				<Name>Brown mechanical switches</Name>
 				<Category>Physical</Category>
 				<Description>Soft tactile feeling</Description>
-				<DevTime>1</DevTime>
-				<Innovation>1</Innovation>
-				<Usability>1</Usability>
-				<Stability>1</Stability>
+				<DevTime>3</DevTime>
+				<Innovation>0.4</Innovation>
+				<Usability>0.4</Usability>
+				<Stability>0.5</Stability>
 				<CodeArt>1</CodeArt>
 				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
 			</Feature>
@@ -395,10 +395,10 @@
 				<Name>Black mechanical switches</Name>
 				<Category>Physical</Category>
 				<Description>Linear Feeling</Description>
-				<DevTime>1</DevTime>
-				<Innovation>1</Innovation>
-				<Usability>1</Usability>
-				<Stability>1</Stability>
+				<DevTime>4</DevTime>
+				<Innovation>0.5</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.6</Stability>
 				<CodeArt>1</CodeArt>
 				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
 			</Feature>
@@ -408,9 +408,9 @@
 				<Category>Physical</Category>
 				<Description>Smaller than a normal laptop switch</Description>
 				<DevTime>1</DevTime>
-				<Innovation>1</Innovation>
+				<Innovation>0.5</Innovation>
 				<Usability>0.5</Usability>
-				<Stability>0.5</Stability>
+				<Stability>0.6</Stability>
 				<CodeArt>1</CodeArt>
 				<Unlock>2000</Unlock>
 				<Dependency Software="Hardware">Laptop switches</Dependency>
@@ -422,9 +422,9 @@
 				<Category>Physical</Category>
 				<Description>Customers can place his favourite font on the keys</Description>
 				<DevTime>1</DevTime>
-				<Innovation>1</Innovation>
-				<Usability>1.5</Usability>
-				<Stability>1</Stability>
+				<Innovation>0.4</Innovation>
+				<Usability>0.5</Usability>
+				<Stability>0.4</Stability>
 				<CodeArt>1</CodeArt>
 				<Research>2020</Research>
 				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
@@ -435,9 +435,9 @@
 				<Category>Physical</Category>
 				<Description>Just 1 color light.</Description>
 				<DevTime>1</DevTime>
-				<Innovation>1</Innovation>
-				<Usability>1</Usability>
-				<Stability>1</Stability>
+				<Innovation>0.3</Innovation>
+				<Usability>0.2</Usability>
+				<Stability>0.5</Stability>
 				<CodeArt>1</CodeArt>
 				<Unlock>2000</Unlock>
 				<SoftwareCategory Category="Keyboard">1</SoftwareCategory>
@@ -448,9 +448,9 @@
 				<Category>Physical</Category>
 				<Description>The 3 primary colors.</Description>
 				<DevTime>1</DevTime>
-				<Innovation>1</Innovation>
-				<Usability>1</Usability>
-				<Stability>1</Stability>
+				<Innovation>0.3</Innovation>
+				<Usability>0.2</Usability>
+				<Stability>0.5</Stability>
 				<CodeArt>1</CodeArt>
 				<Unlock>2005</Unlock>
 				<Dependency Software="Hardware">Basic coloured lights</Dependency>
@@ -462,9 +462,9 @@
 				<Category>Physical</Category>
 				<Description>All colors that exist</Description>
 				<DevTime>1</DevTime>
-				<Innovation>1</Innovation>
-				<Usability>1</Usability>
-				<Stability>1</Stability>
+				<Innovation>0.4</Innovation>
+				<Usability>0.3</Usability>
+				<Stability>0.4</Stability>
 				<CodeArt>1</CodeArt>
 				<Unlock>2010</Unlock>
 				<Dependency Software="Hardware">Advanced coloured lights</Dependency>
@@ -483,7 +483,7 @@
 				<DevTime>0.5</DevTime>
 				<Innovation>0.5</Innovation>
 				<Usability>0.2</Usability>
-				<Stability>0.1</Stability>
+				<Stability>0.8</Stability>
 				<CodeArt>0.5</CodeArt>
 				<SoftwareCategory Category="VR">1</SoftwareCategory>
 			</Feature>
@@ -495,7 +495,7 @@
 				<DevTime>0.5</DevTime>
 				<Innovation>0.5</Innovation>
 				<Usability>0.2</Usability>
-				<Stability>0.1</Stability>
+				<Stability>0.7</Stability>
 				<CodeArt>0.5</CodeArt>
 				<Dependency Software="Hardware">VR Headset</Dependency>
 				<SoftwareCategory Category="VR">1</SoftwareCategory>
@@ -508,7 +508,7 @@
 				<DevTime>0.5</DevTime>
 				<Innovation>0.5</Innovation>
 				<Usability>0.2</Usability>
-				<Stability>0.1</Stability>
+				<Stability>0.5</Stability>
 				<CodeArt>0.5</CodeArt>
 				<SoftwareCategory Category="VR">1</SoftwareCategory>
 			</Feature>
@@ -520,7 +520,7 @@
 				<DevTime>0.5</DevTime>
 				<Innovation>0.5</Innovation>
 				<Usability>0.2</Usability>
-				<Stability>0.1</Stability>
+				<Stability>0.5</Stability>
 				<CodeArt>0.5</CodeArt>
 				<SoftwareCategory Category="VR">1</SoftwareCategory>
 			</Feature>
@@ -532,7 +532,7 @@
 				<DevTime>0.5</DevTime>
 				<Innovation>0.5</Innovation>
 				<Usability>0.2</Usability>
-				<Stability>0.1</Stability>
+				<Stability>0.6</Stability>
 				<CodeArt>0.5</CodeArt>
 				<Dependency Software="Hardware">VR Headset</Dependency>
 				<SoftwareCategory Category="VR">1</SoftwareCategory>

@@ -1,21 +1,22 @@
 <SoftwareType>
 	<Name>Merchandise</Name>
-	<Description>Special shirts/gear.</Description>
+	<Description>Special shirts/gear</Description>
 		<Categories>
 		<Category Name="Shirts">
 			<Description></Description>
-			<Popularity>0.4</Popularity>
-			<Retention>0.3</Retention>
+			<Popularity>0.2</Popularity>
+			<Retention>0.4</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 	</Categories>
 
-	<Random>0.1</Random>
-	<Popularity>0.4</Popularity>
+	<Random>0.8</Random>
+	<Popularity>0.2</Popularity>
 	<OSSpecific>FALSE</OSSpecific>
 	<OneClient>FALSE</OneClient>
 	<InHouse>FALSE</InHouse>
+	
 	<Category>Shirts</Category>
 	<NameGenerator>MerchandiseGen</NameGenerator>
 	<Features>

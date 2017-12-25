@@ -4,16 +4,16 @@
 		<Categories>
 		<Category Name="Default">
 			<Description></Description>
-			<Popularity>0.7</Popularity>
-			<Retention>0.9</Retention>
+			<Popularity>0.6</Popularity>
+			<Retention>0.7</Retention>
 			<TimeScale>5</TimeScale>
 			<Iterative>1</Iterative>
 			<Unlock>1990</Unlock>
 		</Category>
 	</Categories>
 
-	<Random>0.1</Random>
-	<Popularity>1</Popularity>
+	<Random>0.2</Random>
+	<Popularity>0.6</Popularity>
 	<OSSpecific>TRUE</OSSpecific>
 	<OSLimit>Computer</OSLimit>
 	<OneClient>FALSE</OneClient>
@@ -50,8 +50,8 @@
 			<Category>System</Category>
 			<Description>Refresh a specific page</Description>
 			<DevTime>2</DevTime>
-			<Innovation>3</Innovation>
-			<Usability>3</Usability>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Web Browser">GUI</Dependency>

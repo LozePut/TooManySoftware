@@ -6,13 +6,13 @@
 		<Category Name="Default">
 			<Description></Description>
 			<Popularity>0.5</Popularity>
-			<Retention>0.9</Retention>
+			<Retention>0.6</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
 		</Category>
 	</Categories>
-	<Random>0.1</Random>
-	<Popularity>0.7</Popularity>
+	<Random>0.4</Random>
+	<Popularity>0.6</Popularity>
 	<OSSpecific>FALSE</OSSpecific>
 	<OneClient>FALSE</OneClient>
 	<InHouse>TRUE</InHouse>
