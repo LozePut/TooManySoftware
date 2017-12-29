@@ -43,15 +43,15 @@
 			<Innovation>0</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
-			<CodeArt>1.5</CodeArt>
+			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature Forced="FALSE">
 			<Name>Refresh</Name>
 			<Category>System</Category>
 			<Description>Refresh a specific page</Description>
 			<DevTime>2</DevTime>
-			<Innovation>2</Innovation>
-			<Usability>2</Usability>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Web Browser">GUI</Dependency>
@@ -63,9 +63,9 @@
 			<Description>Adds tabs for multitasking</Description>
 			<DevTime>0.5</DevTime>
 			<Innovation>1</Innovation>
-			<Usability>1.5</Usability>
-			<Stability>1</Stability>
-			<CodeArt>1.5</CodeArt>
+			<Usability>1</Usability>
+			<Stability>1.5</Stability>
+			<CodeArt>1</CodeArt>
 			<Dependency Software="Web Browser">GUI</Dependency>
 		</Feature>
 
@@ -76,7 +76,7 @@
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
-			<Stability>1</Stability>
+			<Stability>2</Stability>
 			<CodeArt>0</CodeArt>
 			<Dependency Software="Web Browser">Support HTML 5</Dependency>
 		</Feature>
@@ -89,7 +89,7 @@
 			<Innovation>0.5</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0</CodeArt>
+			<CodeArt>1</CodeArt>
 			<Dependency Software="Web Browser">Support HTML 5</Dependency>
 		</Feature>
 
@@ -137,9 +137,9 @@
 			<Description>Improve the GUI</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1.5</Innovation>
-			<Usability>2</Usability>
+			<Usability>1.5</Usability>
 			<Stability>2</Stability>
-			<CodeArt>2.5</CodeArt>
+			<CodeArt>2</CodeArt>
 			<Dependency Software="Web Browser">GUI</Dependency>
 			<Dependency Software="2D Editor">Image rendering</Dependency>
 		</Feature>
@@ -149,10 +149,10 @@
 			<Category>System</Category>
 			<Description>Adds 3 dimensions GUI</Description>
 			<DevTime>2</DevTime>
-			<Innovation>4</Innovation>
-			<Usability>2</Usability>
-			<Stability>2</Stability>
-			<CodeArt>3</CodeArt>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
 			<Research>2020</Research>
 			<Dependency Software="Web Browser">Advanced GUI</Dependency>
 			<Dependency Software="3D Editor">Vertex editing</Dependency>
