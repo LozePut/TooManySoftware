@@ -19,7 +19,7 @@ that you could find here: C:\Program Files (x86)\Steam\steamapps\common\Software
 
 
 **Currently:**    
-**8 Software types**    
+**9 Software types**    
 * Mobile Apps
   * Business
   * Gaming
@@ -43,6 +43,7 @@ that you could find here: C:\Program Files (x86)\Steam\steamapps\common\Software
      * Mouse
      * Keyboard
      * VR
+* Robots
 
 **4 Scenario's**  
 * Sandbox    
