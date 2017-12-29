@@ -14,7 +14,7 @@ Warning: After update from this mod you need to create a new game!
 
 **Non steam;**
 Press Non steam download button.
-Open TooManySoftware.zip > Put  ToomanySofware-master inside youre Mod folder 
+Open TooManySoftware.zip > Put  ToomanySofware-master inside your Mod folder 
 that you could find here: C:\Program Files (x86)\Steam\steamapps\common\Software Inc\Mods
 
 
