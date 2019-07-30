@@ -178,10 +178,10 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Toolbox">720p</Dependency>
-			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+			<SoftwareCategory Category="Screen recorder">2000</SoftwareCategory>
 	</Feature>
 
-	<Feature Forced="FALSE">
+	<Feature Forced="FALSE" Research="1080p">
 			<Name>4k</Name>
 			<Category>System</Category>
 			<Description>Ultra HD</Description>
@@ -190,9 +190,9 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Research>2015</Research>
+			<Unlock>2010</Unlock>
 			<Dependency Software="Toolbox">1080p</Dependency>
-			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+			<SoftwareCategory Category="Screen recorder">2010</SoftwareCategory>
 	</Feature>
 
 
@@ -230,7 +230,7 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Screen recorder">1995</SoftwareCategory>
+			<SoftwareCategory Category="Screen recorder">2005</SoftwareCategory>
 	</Feature>
 
 	<Feature Forced="TRUE">

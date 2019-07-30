@@ -9,6 +9,7 @@
 			<Retention>0.5</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
+			<Unlock>1990</Unlock>
 		</Category>
 		<Category Name="Social Media">
 			<NameGenerator>Website_SocialmediaGen</NameGenerator>
@@ -17,6 +18,7 @@
 			<Retention>0.4</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
+			<Unlock>1990</Unlock>
 		</Category>
 		<Category Name="Video Player">
 			<Description>Like YouTube and Twitch etc.</Description>
@@ -25,6 +27,7 @@
 			<Retention>0.4</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
+			<Unlock>1990</Unlock>
 		</Category>
 		<Category Name="Forum">
 			<Description>Discuss about everything on a forum.</Description>
@@ -33,6 +36,7 @@
 			<Retention>0.4</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>1</Iterative>
+			<Unlock>1990</Unlock>
 		</Category>
 	</Categories>
 	<Random>0.8</Random>
@@ -92,7 +96,7 @@
 			<Dependency Software="Website">JavaScript</Dependency>
 		</Feature>
 
-		<Feature Forced="FALSE">
+		<Feature Forced="FALSE" Research="HTML Based">
 			<Name>Quantum Search</Name>
 			<Category>System</Category>
 			<Description>Makes searching (almost) instant</Description>
@@ -102,11 +106,9 @@
 			<Stability>4</Stability>
 			<CodeArt>4</CodeArt>
 			<Unlock>2020</Unlock>
-			<Research>2020</Research>
-			<SoftwareCategory Category="Search Engine">1970</SoftwareCategory>
+			<SoftwareCategory Category="Search Engine">2020</SoftwareCategory>
 			<Dependency Software="Server Hosting">Quantum</Dependency>
 		</Feature>
-
 		<Feature From="Hide searches">
 			<Name>Save searches</Name>
 			<Category>System</Category>

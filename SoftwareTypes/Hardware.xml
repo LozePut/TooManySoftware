@@ -68,18 +68,18 @@
 				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
 			</Feature>
 
-			<Feature From="Stereo">
+			<Feature Research="Stereo" From="Stereo">
 				<Name>Surround</Name>
 				<Category>Physical</Category>
 				<Description>You can hear from all sides.</Description>
-				<Research>2005</Research>
+				<Unlock>2005</Unlock>
 				<DevTime>0.5</DevTime>
 				<Innovation>0.1</Innovation>
 				<Usability>0.1</Usability>
 				<Stability>0.3</Stability>
 				<CodeArt>0</CodeArt>
 				<Dependency Software="Hardware">Stereo</Dependency>
-				<SoftwareCategory Category="Audio">1990</SoftwareCategory>
+				<SoftwareCategory Category="Audio">2005</SoftwareCategory>
 			</Feature>
 
 			<Feature Forced="TRUE">

@@ -141,7 +141,7 @@
 			<CodeArt>0.5</CodeArt>
 			</Feature>
 
-			<Feature Forced="FALSE">
+		<Feature Forced="FALSE" Research="SSHD">
 			<Name>Quantum</Name>
 			<Category>System</Category>
 			<Description>A lot faster and smaller than SSD</Description>
@@ -150,8 +150,7 @@
 			<Usability>4</Usability>
 			<Stability>4</Stability>
 			<Unlock>2020</Unlock>
-			<Research>2020</Research>
 			<CodeArt>4</CodeArt>
-			</Feature>
+		</Feature>
 	</Features>
 </SoftwareType>

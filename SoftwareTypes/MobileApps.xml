@@ -142,11 +142,10 @@
 			<Category>System</Category>
 			<Description>Rotate your phone to interact</Description>
 			<DevTime>0.5</DevTime>
-			<Innovation>2</Innovation>
+			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Research>2005</Research>
 			<Dependency Software="Mobile Apps">Java</Dependency>
 			<SoftwareCategory Category="Gaming">2000</SoftwareCategory>
 		</Feature>
