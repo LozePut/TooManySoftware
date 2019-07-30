@@ -1,0 +1,33 @@
+<Scenario>
+<Name>Dev Mode (For testing)</Name>
+<Goals>
+	
+</Goals>
+<Money>
+	<Amount>999999999</Amount>
+</Money>
+<Years>
+
+		<Year>1980</Year>
+		<Year>1985</Year>
+		<Year>1990</Year>
+		<Year>1995</Year>
+		<Year>2000</Year>
+		<Year>2005</Year>
+		<Year>2010</Year>
+		<Year>2015</Year>
+		<Year>2020</Year>
+		<Year>2025</Year>
+		<Year>2030</Year>
+		<Year>2035</Year>
+		<Year>2040</Year>
+		<Year>2045</Year>
+		<Year>2050</Year>
+
+</Years>
+
+<Events> </Events>
+
+<Simulation>TRUE</Simulation>
+
+</Scenario>
